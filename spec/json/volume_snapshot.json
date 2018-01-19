@@ -1,0 +1,244 @@
+{
+  "total": 4,
+  "members": [{
+    "id": 6233,
+    "name": "rmc-0006232-ro-170606163217630",
+    "deduplicationState": 3,
+    "compressionState": 4,
+    "provisioningType": 3,
+    "copyType": 3,
+    "copyOf": "r_ashu_ab2_a028b4ce993ae9ca",
+    "baseId": 6232,
+    "readOnly": true,
+    "state": 1,
+    "failedStates": [],
+    "degradedStates": [],
+    "additionalStates": [],
+    "adminSpace": {
+      "reservedMiB": 0,
+      "rawReservedMiB": 0,
+      "usedMiB": 0,
+      "freeMiB": 0
+    },
+    "snapshotSpace": {
+      "reservedMiB": 0,
+      "rawReservedMiB": 0,
+      "usedMiB": 0,
+      "freeMiB": 0
+    },
+    "userSpace": {
+      "reservedMiB": 0,
+      "rawReservedMiB": 0,
+      "usedMiB": 0,
+      "freeMiB": 0
+    },
+    "sizeMiB": 6144,
+    "parentId": 6232,
+    "wwn": "60002AC00000000000001859000193B9",
+    "creationTimeSec": 1496746847,
+    "creationTime8601": "2017-06-06T16:30:47+05:30",
+    "ssSpcAllocWarningPct": 0,
+    "ssSpcAllocLimitPct": 0,
+    "usrSpcAllocWarningPct": 0,
+    "usrSpcAllocLimitPct": 0,
+    "policies": {
+      "staleSS": true,
+      "oneHost": false,
+      "zeroDetect": false,
+      "system": false,
+      "caching": true,
+      "fsvc": false,
+      "hostDIF": 1
+    },
+    "snapCPG": "FC_r1",
+    "uuid": "ecda215f-5ccc-4064-aa86-b229b6b04f68",
+    "udid": 6233,
+    "links": [{
+      "href": "https://10.22.192.253:8080/api/v1/volumes/rmc-0006232-ro-170606163217630",
+      "rel": "self"
+    }, {
+      "href": "https://10.22.192.253:8080/api/v1/volumespacedistribution/rmc-0006232-ro-170606163217630",
+      "rel": "volumeSpaceDistribution"
+    }]
+  }, {
+    "id": 6293,
+    "name": "vol_snap1",
+    "deduplicationState": 3,
+    "compressionState": 4,
+    "provisioningType": 3,
+    "copyType": 3,
+    "copyOf": "r_ashu_ab2_a028b4ce993ae9ca",
+    "baseId": 6232,
+    "readOnly": false,
+    "state": 1,
+    "failedStates": [],
+    "degradedStates": [],
+    "additionalStates": [],
+    "adminSpace": {
+      "reservedMiB": 0,
+      "rawReservedMiB": 0,
+      "usedMiB": 0,
+      "freeMiB": 0
+    },
+    "snapshotSpace": {
+      "reservedMiB": 0,
+      "rawReservedMiB": 0,
+      "usedMiB": 0,
+      "freeMiB": 0
+    },
+    "userSpace": {
+      "reservedMiB": 0,
+      "rawReservedMiB": 0,
+      "usedMiB": 0,
+      "freeMiB": 0
+    },
+    "sizeMiB": 6144,
+    "parentId": 6232,
+    "wwn": "60002AC00000000000001895000193B9",
+    "creationTimeSec": 1497002763,
+    "creationTime8601": "2017-06-09T15:36:03+05:30",
+    "ssSpcAllocWarningPct": 0,
+    "ssSpcAllocLimitPct": 0,
+    "usrSpcAllocWarningPct": 0,
+    "usrSpcAllocLimitPct": 0,
+    "policies": {
+      "staleSS": true,
+      "oneHost": false,
+      "zeroDetect": true,
+      "system": false,
+      "caching": true,
+      "fsvc": false,
+      "hostDIF": 1
+    },
+    "snapCPG": "FC_r1",
+    "uuid": "2e69a6f8-cd55-4f00-82dc-9edd807b4afa",
+    "udid": 6293,
+    "links": [{
+      "href": "https://10.22.192.253:8080/api/v1/volumes/vol_snap1",
+      "rel": "self"
+    }, {
+      "href": "https://10.22.192.253:8080/api/v1/volumespacedistribution/vol_snap1",
+      "rel": "volumeSpaceDistribution"
+    }]
+  }, {
+    "id": 6296,
+    "name": "vol_snap12",
+    "deduplicationState": 3,
+    "compressionState": 4,
+    "provisioningType": 3,
+    "copyType": 3,
+    "copyOf": "r_ashu_ab2_a028b4ce993ae9ca",
+    "baseId": 6232,
+    "readOnly": false,
+    "state": 1,
+    "failedStates": [],
+    "degradedStates": [],
+    "additionalStates": [],
+    "adminSpace": {
+      "reservedMiB": 0,
+      "rawReservedMiB": 0,
+      "usedMiB": 0,
+      "freeMiB": 0
+    },
+    "snapshotSpace": {
+      "reservedMiB": 0,
+      "rawReservedMiB": 0,
+      "usedMiB": 0,
+      "freeMiB": 0
+    },
+    "userSpace": {
+      "reservedMiB": 0,
+      "rawReservedMiB": 0,
+      "usedMiB": 0,
+      "freeMiB": 0
+    },
+    "sizeMiB": 6144,
+    "parentId": 6232,
+    "wwn": "60002AC00000000000001898000193B9",
+    "creationTimeSec": 1497003644,
+    "creationTime8601": "2017-06-09T15:50:44+05:30",
+    "ssSpcAllocWarningPct": 0,
+    "ssSpcAllocLimitPct": 0,
+    "usrSpcAllocWarningPct": 0,
+    "usrSpcAllocLimitPct": 0,
+    "policies": {
+      "staleSS": true,
+      "oneHost": false,
+      "zeroDetect": true,
+      "system": false,
+      "caching": true,
+      "fsvc": false,
+      "hostDIF": 1
+    },
+    "snapCPG": "FC_r1",
+    "uuid": "fe649f68-dfcb-4432-8009-612498b6376f",
+    "udid": 6296,
+    "links": [{
+      "href": "https://10.22.192.253:8080/api/v1/volumes/vol_snap12",
+      "rel": "self"
+    }, {
+      "href": "https://10.22.192.253:8080/api/v1/volumespacedistribution/vol_snap12",
+      "rel": "volumeSpaceDistribution"
+    }]
+  }, {
+    "id": 6298,
+    "name": "vol_snap2",
+    "deduplicationState": 3,
+    "compressionState": 4,
+    "provisioningType": 3,
+    "copyType": 3,
+    "copyOf": "r_ashu_ab2_a028b4ce993ae9ca",
+    "baseId": 6232,
+    "readOnly": false,
+    "state": 1,
+    "failedStates": [],
+    "degradedStates": [],
+    "additionalStates": [],
+    "adminSpace": {
+      "reservedMiB": 0,
+      "rawReservedMiB": 0,
+      "usedMiB": 0,
+      "freeMiB": 0
+    },
+    "snapshotSpace": {
+      "reservedMiB": 0,
+      "rawReservedMiB": 0,
+      "usedMiB": 0,
+      "freeMiB": 0
+    },
+    "userSpace": {
+      "reservedMiB": 0,
+      "rawReservedMiB": 0,
+      "usedMiB": 0,
+      "freeMiB": 0
+    },
+    "sizeMiB": 6144,
+    "parentId": 6232,
+    "wwn": "60002AC0000000000000189A000193B9",
+    "creationTimeSec": 1497003817,
+    "creationTime8601": "2017-06-09T15:53:37+05:30",
+    "ssSpcAllocWarningPct": 0,
+    "ssSpcAllocLimitPct": 0,
+    "usrSpcAllocWarningPct": 0,
+    "usrSpcAllocLimitPct": 0,
+    "policies": {
+      "staleSS": true,
+      "oneHost": false,
+      "zeroDetect": true,
+      "system": false,
+      "caching": true,
+      "fsvc": false,
+      "hostDIF": 1
+    },
+    "snapCPG": "FC_r1",
+    "uuid": "4a66c104-7b21-4752-9892-9e49673b49c9",
+    "udid": 6298,
+    "links": [{
+      "href": "https://10.22.192.253:8080/api/v1/volumes/vol_snap2",
+      "rel": "self"
+    }, {
+      "href": "https://10.22.192.253:8080/api/v1/volumespacedistribution/vol_snap2",
+      "rel": "volumeSpaceDistribution"
+    }]
+  }]
+}

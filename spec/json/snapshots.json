@@ -1,0 +1,116 @@
+{
+	"total": 2,
+	"members": [{
+		"id": 336,
+		"name": "vvr_2",
+		"domain": "SRA_ANISHA",
+		"provisioningType": 2,
+		"copyType": 3,
+		"baseId": 336,
+		"readOnly": false,
+		"state": 1,
+		"failedStates": [],
+		"degradedStates": [],
+		"additionalStates": [],
+		"adminSpace": {
+			"reservedMiB": 256,
+			"rawReservedMiB": 768,
+			"usedMiB": 1,
+			"freeMiB": 255
+		},
+		"snapshotSpace": {
+			"reservedMiB": 1024,
+			"rawReservedMiB": 1024,
+			"usedMiB": 0,
+			"freeMiB": 1024
+		},
+		"userSpace": {
+			"reservedMiB": 1024,
+			"rawReservedMiB": 1024,
+			"usedMiB": 0,
+			"freeMiB": 1024
+		},
+		"sizeMiB": 10240,
+		"wwn": "60002AC000000000000001500000B69E",
+		"creationTimeSec": 1417769140,
+		"creationTime8601": "2014-12-05T00:45:40-08:00",
+		"ssSpcAllocWarningPct": 0,
+		"ssSpcAllocLimitPct": 0,
+		"usrSpcAllocWarningPct": 0,
+		"usrSpcAllocLimitPct": 0,
+		"policies": {
+			"staleSS": true,
+			"oneHost": false,
+			"zeroDetect": true,
+			"system": false,
+			"caching": true,
+			"fsvc": false
+		},
+		"userCPG": "SRA_REC",
+		"snapCPG": "SRA_REC",
+		"uuid": "2948d4d2-627f-4821-acbd-a965248a27e7",
+		"capacityEfficiency": {
+			"compaction": 7447.3
+		},
+		"links": [{
+			"href": "https://15.213.67.206:8080/api/v1/volumespacedistribution/vvr_2",
+			"rel": "volumeSpaceDistribution"
+		}]
+	}, {
+		"id": 14178,
+		"name": "P14db_ESX243",
+		"domain": "SAPLVM",
+		"provisioningType": 2,
+		"copyType": 3,
+		"baseId": 14178,
+		"readOnly": false,
+		"state": 1,
+		"failedStates": [],
+		"degradedStates": [],
+		"additionalStates": [],
+		"adminSpace": {
+			"reservedMiB": 768,
+			"rawReservedMiB": 2304,
+			"usedMiB": 14,
+			"freeMiB": 754
+		},
+		"snapshotSpace": {
+			"reservedMiB": 7168,
+			"rawReservedMiB": 7168,
+			"usedMiB": 0,
+			"freeMiB": 7168
+		},
+		"userSpace": {
+			"reservedMiB": 16384,
+			"rawReservedMiB": 21845,
+			"usedMiB": 12330,
+			"freeMiB": 4054
+		},
+		"sizeMiB": 25600,
+		"wwn": "60002AC000000000000037620000B69E",
+		"creationTimeSec": 1424324600,
+		"creationTime8601": "2015-02-18T21:43:20-08:00",
+		"ssSpcAllocWarningPct": 0,
+		"ssSpcAllocLimitPct": 0,
+		"usrSpcAllocWarningPct": 0,
+		"usrSpcAllocLimitPct": 0,
+		"policies": {
+			"staleSS": true,
+			"oneHost": false,
+			"zeroDetect": false,
+			"system": false,
+			"caching": true,
+			"fsvc": false
+		},
+		"userCPG": "SAPLVM_R5_baseVols",
+		"snapCPG": "SAPLVM_R5_snapvols",
+		"uuid": "870750bd-d23e-4795-b22c-0d7255a61035",
+		"capacityEfficiency": {
+			"compaction": 2.1
+		},
+		"links": [{
+			"href": "https://15.213.67.206:8080/api/v1/volumespacedistribution/P14db_ESX243",
+			"rel": "volumeSpaceDistribution"
+		}]
+	}]
+}

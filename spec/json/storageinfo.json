@@ -1,0 +1,184 @@
+{"id":46750,
+  "name":"EIS_206_REC",
+  "systemVersion":"3.2.2.530",
+  "IPv4Addr":"15.213.67.206",
+  "model":"HP_3PAR 7400",
+  "serialNumber":"1646750",
+  "totalNodes":4,
+  "masterNode":0,
+  "onlineNodes":[
+    0,
+    1,
+    2,
+    3
+  ],
+  "clusterNodes":[
+    0,
+    1,
+    2,
+    3
+  ],
+  "chunkletSizeMiB":1024,
+  "totalCapacityMiB":20054016.0,
+  "allocatedCapacityMiB":15224832.0,
+  "freeCapacityMiB":4829184.0,
+  "failedCapacityMiB":0.0,
+  "timeZone":"America/Los_Angeles",
+  "licenseInfo":{
+    "issueTimeSec":1427873270,
+    "issueTime8601":"2015-04-01T00:27:50-07:00",
+    "diskCount":48,
+    "licenses":[
+      {
+        "name":"3PAR OS Suite"
+      },
+      {
+        "name":"Adaptive Flash Cache"
+      },
+      {
+        "name":"Adaptive Optimization"
+      },
+      {
+        "name":"Autonomic Rebalance"
+      },
+      {
+        "name":"Cluster Extension"
+      },
+      {
+        "name":"Cluster Extension (102400G)"
+      },
+      {
+        "name":"Data Encryption"
+      },
+      {
+        "name":"Dynamic Optimization"
+      },
+      {
+        "name":"File Persona (102400G)"
+      },
+      {
+        "name":"File Persona Basic"
+      },
+      {
+        "name":"Management Plug-In for VMware vCenter"
+      },
+      {
+        "name":"Peer Motion"
+      },
+      {
+        "name":"Peer Persistence"
+      },
+      {
+        "name":"Peer Persistence (102400G)"
+      },
+      {
+        "name":"Priority Optimization"
+      },
+      {
+        "name":"Recovery Manager Central"
+      },
+      {
+        "name":"Recovery Manager for Exchange"
+      },
+      {
+        "name":"Recovery Manager for Microsoft Hyper-V"
+      },
+      {
+        "name":"Recovery Manager for Oracle"
+      },
+      {
+        "name":"Recovery Manager for SQL"
+      },
+      {
+        "name":"Recovery Manager for VMware vSphere"
+      },
+      {
+        "name":"Remote Copy"
+      },
+      {
+        "name":"Remote Copy (102400G)"
+      },
+      {
+        "name":"Smart SAN"
+      },
+      {
+        "name":"Storage Federation"
+      },
+      {
+        "name":"System Reporter"
+      },
+      {
+        "name":"Thin Conversion"
+      },
+      {
+        "name":"Thin Copy Reclamation"
+      },
+      {
+        "name":"Thin Deduplication"
+      },
+      {
+        "name":"Thin Persistence"
+      },
+      {
+        "name":"Thin Provisioning (102400G)"
+      },
+      {
+        "name":"Virtual Copy"
+      },
+      {
+        "name":"Virtual Copy (102400G)"
+      },
+      {
+        "name":"Virtual Domains"
+      },
+      {
+        "name":"Virtual Lock"
+      },
+      {
+        "name":"VSS Provider for Microsoft Windows"
+      }
+    ],
+    "licenseState":{
+      "virtualCopy":true,
+      "remoteCopy":true,
+      "thinProvisioing":true,
+      "domains":true,
+      "dynamicOptimization":true,
+      "virtualLock":true,
+      "thinPersistence":true,
+      "thinConversion":true,
+      "adaptiveOptimization":true,
+      "peerVirtualization":true,
+      "qos":true,
+      "systemReporter":true,
+      "darEncryption":true,
+      "fileServices":true,
+      "storageFederation":true,
+      "onlineImport":false,
+      "rmcApplicationSuite":false
+    }
+  },
+  "parameters":{
+    "rawSpaceAlertFC":0,
+    "rawSpaceAlertNL":0,
+    "rawSpaceAlertSSD":0,
+    "remoteSyslog":false,
+    "remoteSyslogHost":"0.0.0.0",
+    "sparingAlgorithm":"Default",
+    "eventLogsize":3145728,
+    "VVRetentionTimeMax":1209600,
+    "upgradeNote":"",
+    "portFailoverEnabled":true,
+    "autoExportAfterReboot":true,
+    "allowR5OnNLDrives":false,
+    "allowR0":true,
+    "thermalShutdown":true,
+    "failoverMatchedSet":true,
+    "sessionTimeout":3600,
+    "hostDIF":false,
+    "allowWrtbackSingleNode":false,
+    "allowWrtbackUpgrade":false,
+    "disableDedup":false
+  }
+}
+

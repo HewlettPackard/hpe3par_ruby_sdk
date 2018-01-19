@@ -1,0 +1,25 @@
+{
+  "id": 215,
+  "name": "sample-host",
+  "FCPaths": [{
+    "wwn": "1000D89D676F3859",
+    "portPos": {
+      "node": 2,
+      "slot": 1,
+      "cardPort": 1
+    },
+    "hostSpeed": 0
+  }],
+  "iSCSIPaths": [{
+    "name": "iqn.1998-01.com.vmware:host183-6813c8e3",
+    "IPAddr": "0.0.0.0",
+    "hostSpeed": 0
+  }],
+  "persona": 1,
+  "links": [{
+    "href": "https://15.213.67.206:8080/api/v1/hostpersonas?query=\"wsapiAssignedId EQ 1\"",
+    "rel": "personaInfo"
+  }],
+  "initiatorChapEnabled": false,
+  "targetChapEnabled": false
+}

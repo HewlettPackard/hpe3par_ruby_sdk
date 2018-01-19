@@ -1,0 +1,76 @@
+{
+    "total": 1,
+    "members": [
+        {
+            "id": 3152,
+            "name": "TestCER.2",
+            "domain": "SFA",
+            "deduplicationState": 3,
+            "compressionState": 4,
+            "provisioningType": 1,
+            "copyType": 1,
+            "baseId": 3152,
+            "readOnly": false,
+            "state": 1,
+            "failedStates": [
+            ],
+            "degradedStates": [
+            ],
+            "additionalStates": [
+            ],
+            "adminSpace": {
+                "reservedMiB": 0,
+                "rawReservedMiB": 0,
+                "usedMiB": 0,
+                "freeMiB": 0
+            },
+            "snapshotSpace": {
+                "reservedMiB": 0,
+                "rawReservedMiB": 0,
+                "usedMiB": 0,
+                "freeMiB": 0
+            },
+            "userSpace": {
+                "reservedMiB": 1024,
+                "rawReservedMiB": 1365,
+                "usedMiB": 1024,
+                "freeMiB": 0
+            },
+            "totalReservedMiB": 1024,
+            "totalUsedMiB": 1024,
+            "sizeMiB": 1024,
+            "wwn": "60002AC00000000001000C5000001BA0",
+            "creationTimeSec": 1495013501,
+            "creationTime8601": "2017-05-17T15:01:41+05:30",
+            "ssSpcAllocWarningPct": 0,
+            "ssSpcAllocLimitPct": 0,
+            "usrSpcAllocWarningPct": 0,
+            "usrSpcAllocLimitPct": 0,
+            "policies": {
+                "staleSS": true,
+                "oneHost": false,
+                "zeroDetect": false,
+                "system": false,
+                "caching": true,
+                "fsvc": false,
+                "hostDIF": 1
+            },
+            "userCPG": "SSD_r5",
+            "uuid": "b7a2b43d-2851-4402-bb7b-046654501401",
+            "udid": 3152,
+            "capacityEfficiency": {
+                "compaction": 1
+            },
+            "links": [
+                {
+                    "href": "https://10.22.192.253:8080/api/v1/volumes/TestCER.2",
+                    "rel": "self"
+                },
+                {
+                    "href": "https://10.22.192.253:8080/api/v1/volumespacedistribution/TestCER.2",
+                    "rel": "volumeSpaceDistribution"
+                }
+            ]
+        }
+    ]
+}

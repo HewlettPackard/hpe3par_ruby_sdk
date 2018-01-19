@@ -1,0 +1,13 @@
+{
+    "rawFreeMiB": 6973440,
+    "usableFreeMiB": 3486720,
+    "overProvisionedVirtualSizeMiB": 6761945,
+    "overProvisionedUsedMiB": 568064,
+    "overProvisionedAllocatedMiB": 187648,
+    "overProvisionedFreeMiB": 6973440,
+    "capacityEfficiency": {
+        "compaction": 32.36,
+        "dataReduction": 0,
+        "overProvisioning": 0.9
+    }
+}

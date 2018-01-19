@@ -1,0 +1,273 @@
+{
+  "total": 4,
+  "members": [{
+    "id": 0,
+    "name": "SAP_ESX202",
+    "domain": "SAPLVM",
+    "descriptors": {
+      "location": "CB2712",
+      "IPAddr": "10.10.20.202",
+      "os": "ESX 4.x/5.x"
+    },
+    "FCPaths": [{
+      "wwn": "10000090FA13C172",
+      "portPos": {
+        "node": 2,
+        "slot": 1,
+        "cardPort": 1
+      },
+      "hostSpeed": 0
+    }],
+    "iSCSIPaths": [],
+    "persona": 8,
+    "links": [{
+      "href": "https://15.213.67.206:8080/api/v1/hostpersonas?query=\"wsapiAssignedId EQ 8\"",
+      "rel": "personaInfo"
+    }],
+    "initiatorChapEnabled": false,
+    "targetChapEnabled": false
+  }, {
+    "id": 1,
+    "name": "HPERMCE39CAC050B_iscsi",
+    "domain": "SRACERT",
+    "FCPaths": [],
+    "iSCSIPaths": [{
+      "name": "iqn.110717.hpe.com:rmc.HPERMCE39CAC050B:ae381c9ccea9",
+      "portPos": {
+        "node": 3,
+        "slot": 2,
+        "cardPort": 2
+      },
+      "IPAddr": "15.212.192.208",
+      "hostSpeed": 0
+    }],
+    "persona": 2,
+    "links": [{
+      "href": "https://15.213.67.206:8080/api/v1/hostpersonas?query=\"wsapiAssignedId EQ 2\"",
+      "rel": "personaInfo"
+    }],
+    "initiatorChapEnabled": false,
+    "targetChapEnabled": false
+  }, {
+    "id": 2,
+    "name": "AshwiniSR-17286_iscsi",
+    "FCPaths": [],
+    "iSCSIPaths": [{
+      "name": "iqn.140717.hpe.com:rmc.AshwiniSR-17286:ec95d7e9e9a2",
+      "IPAddr": "0.0.0.0",
+      "hostSpeed": 0
+    }],
+    "persona": 2,
+    "links": [{
+      "href": "https://15.213.67.206:8080/api/v1/hostpersonas?query=\"wsapiAssignedId EQ 2\"",
+      "rel": "personaInfo"
+    }],
+    "initiatorChapEnabled": false,
+    "targetChapEnabled": false
+  }, {
+    "FCPaths": [{
+      "wwn": "10000090FA3DBD7E",
+      "portPos": {
+        "node": 2,
+        "slot": 1,
+        "cardPort": 1
+      },
+      "hostSpeed": 0
+    }, {
+      "wwn": "5001438024D59426",
+      "portPos": {
+        "node": 2,
+        "slot": 1,
+        "cardPort": 1
+      },
+      "hostSpeed": 0
+    }, {
+      "wwn": "10000090FAD792FD",
+      "portPos": {
+        "node": 2,
+        "slot": 1,
+        "cardPort": 1
+      },
+      "hostSpeed": 0
+    }, {
+      "wwn": "500143802427A178",
+      "portPos": {
+        "node": 2,
+        "slot": 1,
+        "cardPort": 1
+      },
+      "hostSpeed": 0
+    }, {
+      "wwn": "1000AC162D1F6F3A",
+      "portPos": {
+        "node": 2,
+        "slot": 1,
+        "cardPort": 1
+      },
+      "hostSpeed": 0
+    }, {
+      "wwn": "5001438024D59424",
+      "portPos": {
+        "node": 2,
+        "slot": 1,
+        "cardPort": 1
+      },
+      "hostSpeed": 0
+    }, {
+      "wwn": "10006C3BE5BC4D8D",
+      "portPos": {
+        "node": 2,
+        "slot": 1,
+        "cardPort": 1
+      },
+      "hostSpeed": 0
+    }, {
+      "wwn": "5001438026E98444",
+      "portPos": {
+        "node": 2,
+        "slot": 1,
+        "cardPort": 1
+      },
+      "hostSpeed": 0
+    }, {
+      "wwn": "10006C3BE5BCAE39",
+      "portPos": {
+        "node": 2,
+        "slot": 1,
+        "cardPort": 1
+      },
+      "hostSpeed": 0
+    }, {
+      "wwn": "10006C3BE5BD4095",
+      "portPos": {
+        "node": 2,
+        "slot": 1,
+        "cardPort": 1
+      },
+      "hostSpeed": 0
+    }, {
+      "wwn": "10006C3BE5BD4091",
+      "portPos": {
+        "node": 2,
+        "slot": 1,
+        "cardPort": 1
+      },
+      "hostSpeed": 0
+    }, {
+      "wwn": "100010604BABC165",
+      "portPos": {
+        "node": 2,
+        "slot": 1,
+        "cardPort": 1
+      },
+      "hostSpeed": 0
+    }, {
+      "wwn": "100010604BABC161",
+      "portPos": {
+        "node": 2,
+        "slot": 1,
+        "cardPort": 1
+      },
+      "hostSpeed": 0
+    }, {
+      "wwn": "1000F0921C00B699",
+      "portPos": {
+        "node": 2,
+        "slot": 1,
+        "cardPort": 1
+      },
+      "hostSpeed": 0
+    }, {
+      "wwn": "1000D89D676B0231",
+      "portPos": {
+        "node": 2,
+        "slot": 1,
+        "cardPort": 1
+      },
+      "hostSpeed": 0
+    }, {
+      "wwn": "1000F0921C01CD41",
+      "portPos": {
+        "node": 2,
+        "slot": 1,
+        "cardPort": 1
+      },
+      "hostSpeed": 0
+    }, {
+      "wwn": "50014380231F5016",
+      "portPos": {
+        "node": 2,
+        "slot": 1,
+        "cardPort": 1
+      },
+      "hostSpeed": 0
+    }, {
+      "wwn": "2010000EB38CE875",
+      "portPos": {
+        "node": 2,
+        "slot": 1,
+        "cardPort": 1
+      },
+      "hostSpeed": 0
+    }, {
+      "wwn": "5001438024279E94",
+      "portPos": {
+        "node": 2,
+        "slot": 1,
+        "cardPort": 1
+      },
+      "hostSpeed": 0
+    }, {
+      "wwn": "5001438024279E2C",
+      "portPos": {
+        "node": 2,
+        "slot": 1,
+        "cardPort": 1
+      },
+      "hostSpeed": 0
+    }, {
+      "wwn": "5001438024D59410",
+      "portPos": {
+        "node": 2,
+        "slot": 1,
+        "cardPort": 1
+      },
+      "hostSpeed": 0
+    }, {
+      "wwn": "10006C3BE5BC4D89",
+      "portPos": {
+        "node": 2,
+        "slot": 1,
+        "cardPort": 1
+      },
+      "hostSpeed": 0
+    }, {
+      "wwn": "10006C3BE5BC9E95",
+      "portPos": {
+        "node": 2,
+        "slot": 1,
+        "cardPort": 1
+      },
+      "hostSpeed": 0
+    }, {
+      "wwn": "10006C3BE5BC9E91",
+      "portPos": {
+        "node": 2,
+        "slot": 1,
+        "cardPort": 1
+      },
+      "hostSpeed": 0
+    }, {
+      "wwn": "5001438004263756",
+      "portPos": {
+        "node": 1,
+        "slot": 1,
+        "cardPort": 1
+      },
+      "hostSpeed": 0
+    }],
+    "iSCSIPaths": [],
+    "initiatorChapEnabled": false,
+    "targetChapEnabled": false
+  }]
+}

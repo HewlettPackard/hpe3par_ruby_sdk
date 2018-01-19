@@ -1,0 +1,13 @@
+{
+  "id": 0,
+  "type": 1,
+  "name": "test_set",
+  "enabled": true,
+  "priority": 2,
+  "bwMinGoalKB": 0,
+  "bwMaxLimitKB": 0,
+  "ioMinGoal": 0,
+  "ioMaxLimit": 0,
+  "latencyGoaluSecs": 5000000,
+  "latencyGoal": 5000
+}

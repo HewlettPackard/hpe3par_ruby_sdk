@@ -1,0 +1,29 @@
+[{
+  "portPos": {
+    "node": 0,
+    "slot": 3,
+    "cardPort": 1
+  },
+  "mode": 4,
+  "linkState": 4,
+  "HWAddr": "3464A9EA29F1",
+  "type": 7,
+  "protocol": 2,
+  "label": "IP0",
+  "device": [],
+  "IPAddr": "192.168.5.5"
+}, {
+  "portPos": {
+    "node": 1,
+    "slot": 3,
+    "cardPort": 1
+  },
+  "mode": 4,
+  "linkState": 4,
+  "HWAddr": "3464A9EA2575",
+  "type": 7,
+  "protocol": 2,
+  "label": "IP1",
+  "device": [],
+  "IPAddr": "192.168.5.6"
+}]

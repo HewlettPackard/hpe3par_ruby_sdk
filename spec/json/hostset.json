@@ -1,0 +1,6 @@
+{
+  "id": 464,
+  "uuid": "f7bf6779-a901-4dc4-a63a-8eecac343042",
+  "name": "sample-host-set1",
+  "setmembers": ["sample-host"]
+}

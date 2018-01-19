@@ -1,0 +1,396 @@
+{
+    "total": 47,
+    "members": [
+        {
+            "id": 1064,
+            "name": "C20DUM1",
+            "domain": "SAPLVM",
+            "qosEnabled": false
+        },
+        {
+            "id": 1206,
+            "name": "VV_NonSS_Rec",
+            "domain": "Anisha_SS",
+            "qosEnabled": false
+        },
+        {
+            "id": 1219,
+            "name": "kk",
+            "domain": "ESRP",
+            "qosEnabled": false
+        },
+        {
+            "id": 1258,
+            "name": "vvset1",
+            "domain": "Anisha_SS",
+            "qosEnabled": false
+        },
+        {
+            "id": 1265,
+            "name": "deepa_demo_sec_vv",
+            "domain": "SRA_Theju",
+            "qosEnabled": false
+        },
+        {
+            "id": 1317,
+            "name": "vv3",
+            "domain": "AnishaSRA",
+            "qosEnabled": false
+        },
+        {
+            "id": 1319,
+            "name": "manual_vv3",
+            "domain": "AnishaSRA",
+            "qosEnabled": false
+        },
+        {
+            "id": 1329,
+            "name": "vv13",
+            "domain": "SRA_Theju",
+            "qosEnabled": false
+        },
+        {
+            "id": 1348,
+            "name": "vvf",
+            "domain": "SRA_Theju",
+            "qosEnabled": false
+        },
+        {
+            "id": 1352,
+            "name": "manual_vvset",
+            "domain": "SRA_Theju",
+            "qosEnabled": false
+        },
+        {
+            "id": 1354,
+            "name": "vvsetmanual",
+            "domain": "SRA_Theju",
+            "qosEnabled": false
+        },
+        {
+            "id": 1355,
+            "name": "vvsetmanual2",
+            "domain": "SRA_Theju",
+            "qosEnabled": false
+        },
+        {
+            "id": 1439,
+            "name": "vvani",
+            "domain": "SRA_Theju",
+            "qosEnabled": false
+        },
+        {
+            "id": 1444,
+            "name": "RCP_nbnRcg1.r36284",
+            "domain": "SRA_Theju",
+            "setmembers": [
+            ],
+            "qosEnabled": false
+        },
+        {
+            "id": 1448,
+            "name": "18708-vvset-Rec",
+            "domain": "SRA_Theju",
+            "qosEnabled": false
+        },
+        {
+            "id": 1451,
+            "name": "VVP100",
+            "domain": "SRACERTFC",
+            "qosEnabled": false
+        },
+        {
+            "id": 1459,
+            "name": "P_VVSET",
+            "domain": "SRADEV",
+            "setmembers": [
+                "P_VVSET.0",
+                "P_VVSET.1",
+                "P_VVSET.2",
+                "P_VVSET.3",
+                "P_VVSET.4",
+                "gghh.0",
+                "gghh.1"
+            ],
+            "qosEnabled": false
+        },
+        {
+            "id": 1550,
+            "name": "RCP_play-RCG.r36284",
+            "domain": "SRACERT",
+            "setmembers": [
+            ],
+            "qosEnabled": false
+        },
+        {
+            "id": 1577,
+            "name": "RCP_CenturyLink.r36284",
+            "domain": "SRACERT",
+            "setmembers": [
+            ],
+            "qosEnabled": false
+        },
+        {
+            "id": 1583,
+            "name": "RRVVVVSET",
+            "domain": "SRACERT",
+            "qosEnabled": false
+        },
+        {
+            "id": 1586,
+            "name": "08RVVVVSET",
+            "domain": "SRACERT",
+            "qosEnabled": false
+        },
+        {
+            "id": 1593,
+            "name": "LRVVVVSET",
+            "domain": "SRACERT",
+            "qosEnabled": false
+        },
+        {
+            "id": 1595,
+            "name": "LasRVVVVSET",
+            "domain": "SRACERT",
+            "qosEnabled": false
+        },
+        {
+            "id": 1608,
+            "name": "Geethanjali_test_vvset_1",
+            "qosEnabled": false
+        },
+        {
+            "id": 1609,
+            "name": "sfrmrmcv-57",
+            "setmembers": [
+                "sfrmrmcv-57.0",
+                "sfrmrmcv-57.1"
+            ],
+            "qosEnabled": false
+        },
+        {
+            "id": 1610,
+            "name": "shaila1",
+            "setmembers": [
+                "shaila1.0",
+                "shaila1.1"
+            ],
+            "qosEnabled": false
+        },
+        {
+            "id": 1612,
+            "name": "regt-205-vv",
+            "domain": "SRA_Theju",
+            "setmembers": [
+            ],
+            "qosEnabled": false
+        },
+        {
+            "id": 1613,
+            "name": "vvan",
+            "domain": "AnishaSRA",
+            "setmembers": [
+                "vvan.0",
+                "vvan.1",
+                "vvan.2",
+                "vvan.3"
+            ],
+            "qosEnabled": false
+        },
+        {
+            "id": 1619,
+            "name": "DR_21-8PAR",
+            "qosEnabled": false
+        },
+        {
+            "id": 1620,
+            "name": "DR_32-8PAR",
+            "qosEnabled": false
+        },
+        {
+            "id": 1623,
+            "name": "VVan",
+            "domain": "AnishaSRA",
+            "setmembers": [
+                "VVan.0",
+                "VVan.1",
+                "VVan.2",
+                "VVan.3",
+                "VVan.4",
+                "VVan.5"
+            ],
+            "qosEnabled": false
+        },
+        {
+            "id": 1626,
+            "name": "Vishal_VV",
+            "domain": "SRA_Theju",
+            "setmembers": [
+                "Vishal_VV.0",
+                "Vishal_VV.1",
+                "Vishal_VV.2",
+                "Vishal_VV.3",
+                "Vishal_VV.4"
+            ],
+            "qosEnabled": false
+        },
+        {
+            "id": 1627,
+            "name": "vvr",
+            "domain": "AnishaSRA",
+            "setmembers": [
+                "vvr.0",
+                "vvr.1",
+                "vvr.2",
+                "vvr.3"
+            ],
+            "qosEnabled": false
+        },
+        {
+            "id": 1630,
+            "name": "vvr1",
+            "domain": "AnishaSRA",
+            "setmembers": [
+                "vvr1.0",
+                "vvr1.1",
+                "vvr1.2"
+            ],
+            "qosEnabled": false
+        },
+        {
+            "id": 1631,
+            "name": "vv1",
+            "domain": "AnishaSRA",
+            "setmembers": [
+                "vv1.0",
+                "vv1.1",
+                "vv1.2",
+                "vv1.3"
+            ],
+            "qosEnabled": false
+        },
+        {
+            "id": 1632,
+            "name": "RCP_RCGAninew.r516535",
+            "domain": "AnishaSRA",
+            "setmembers": [
+                "vv1.0",
+                "vv1.1"
+            ],
+            "qosEnabled": false
+        },
+        {
+            "id": 1633,
+            "name": "RCP_RCGAninew2.r516535",
+            "domain": "AnishaSRA",
+            "setmembers": [
+                "vv1.2",
+                "vv1.3"
+            ],
+            "qosEnabled": false
+        },
+        {
+            "id": 1635,
+            "name": "VVR",
+            "domain": "AnishaSRA",
+            "setmembers": [
+                "VVR.0",
+                "VVR.1",
+                "VVR.2",
+                "VVR.3"
+            ],
+            "qosEnabled": false
+        },
+        {
+            "id": 1636,
+            "name": "RCP_PerRCG.r516535",
+            "domain": "AnishaSRA",
+            "setmembers": [
+                "VVR.0",
+                "VVR.1"
+            ],
+            "qosEnabled": false
+        },
+        {
+            "id": 1637,
+            "name": "RCP_PerRCG2.r516535",
+            "domain": "AnishaSRA",
+            "setmembers": [
+                "VVR.2",
+                "VVR.3"
+            ],
+            "qosEnabled": false
+        },
+        {
+            "id": 1638,
+            "name": "RCP_schlumb-rcg.r516535",
+            "domain": "SRA_Theju",
+            "setmembers": [
+                "schlumb-206-vv"
+            ],
+            "qosEnabled": false
+        },
+        {
+            "id": 1641,
+            "name": "s40",
+            "domain": "SAPLVM",
+            "setmembers": [
+                "s40.0",
+                "s40.1",
+                "s40.2",
+                "s40.3",
+                "s40.4"
+            ],
+            "qosEnabled": false
+        },
+        {
+            "id": 1644,
+            "name": "s95.db",
+            "domain": "SAPLVM",
+            "setmembers": [
+                "s95.db.0",
+                "s95.db.1",
+                "s95.csas.0",
+                "s95.csas.1",
+                "s95.dummy"
+            ],
+            "qosEnabled": false
+        },
+        {
+            "id": 1645,
+            "name": "s98.db",
+            "domain": "SAPLVM",
+            "setmembers": [
+                "s98.db.0",
+                "s98.db.1",
+                "s98.csas.0",
+                "s98.csas.1",
+                "s98.dummy"
+            ],
+            "qosEnabled": false
+        },
+        {
+            "id": 1646,
+            "name": "test_set",
+            "qosEnabled": true
+        },
+        {
+            "id": 1647,
+            "name": "test_set2",
+            "qosEnabled": false
+        },
+        {
+            "id": 807,
+            "name": "P14dum_2_ESX243",
+            "domain": "SAPLVM",
+            "setmembers": [
+                "P14dum_2_ESX243.0",
+                "P14dum_2_ESX243.1",
+                "P14dum_2_ESX243.2",
+                "P14dum_2_ESX243.3",
+                "P14dum_2_ESX243.4"
+            ],
+            "qosEnabled": false
+        }
+    ]
+}

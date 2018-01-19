@@ -1,0 +1,169 @@
+[{
+  "portPos": {
+    "node": 0,
+    "slot": 0,
+    "cardPort": 1
+  },
+  "mode": 3,
+  "linkState": 4,
+  "nodeWWN": "2FF70002AC018D7C",
+  "portWWN": "20010002AC018D7C",
+  "type": 3,
+  "protocol": 1,
+  "device": []
+}, {
+  "portPos": {
+    "node": 0,
+    "slot": 0,
+    "cardPort": 2
+  },
+  "mode": 2,
+  "linkState": 4,
+  "nodeWWN": "2FF70002AC018D7C",
+  "portWWN": "20020002AC018D7C",
+  "type": 1,
+  "protocol": 1,
+  "partnerPos": {
+    "node": 1,
+    "slot": 0,
+    "cardPort": 2
+  },
+  "failoverState": 1,
+  "device": ["ESx_172", "ESX120", "ESX121", "esx-176", "ESX_235", "ESX96", "ESX234"]
+}, {
+  "portPos": {
+    "node": 0,
+    "slot": 2,
+    "cardPort": 1
+  },
+  "mode": 2,
+  "linkState": 4,
+  "nodeWWN": "2FF70002AC018D7C",
+  "portWWN": "20210002AC018D7C",
+  "type": 3,
+  "protocol": 1,
+  "device": []
+}, {
+  "portPos": {
+    "node": 0,
+    "slot": 2,
+    "cardPort": 2
+  },
+  "mode": 3,
+  "linkState": 4,
+  "nodeWWN": "2FF70202AC018D7C",
+  "portWWN": "20220202AC018D7C",
+  "type": 6,
+  "protocol": 1,
+  "device": ["2FF70002AC001BA0", "2FF70002AC001BA0", "2FF70002AC001BA0", "2FF70002AC001BA0", "2FF70002AC001BA0", "2FF70002AC001BA0", "2FF70002AC001BA0", "2FF70002AC001BA0", "2FF70002AC001BA0"]
+}, {
+  "portPos": {
+    "node": 0,
+    "slot": 2,
+    "cardPort": 3
+  },
+  "mode": 2,
+  "linkState": 5,
+  "nodeWWN": "2FF70002AC018D7C",
+  "portWWN": "20230002AC018D7C",
+  "type": 3,
+  "protocol": 1,
+  "device": []
+}, {
+  "portPos": {
+    "node": 0,
+    "slot": 2,
+    "cardPort": 4
+  },
+  "mode": 2,
+  "linkState": 5,
+  "nodeWWN": "2FF70002AC018D7C",
+  "portWWN": "20240002AC018D7C",
+  "type": 3,
+  "protocol": 1,
+  "device": []
+}, {
+  "portPos": {
+    "node": 1,
+    "slot": 0,
+    "cardPort": 1
+  },
+  "mode": 3,
+  "linkState": 4,
+  "nodeWWN": "2FF70002AC018D7C",
+  "portWWN": "21010002AC018D7C",
+  "type": 3,
+  "protocol": 1,
+  "device": []
+}, {
+  "portPos": {
+    "node": 1,
+    "slot": 0,
+    "cardPort": 2
+  },
+  "mode": 2,
+  "linkState": 4,
+  "nodeWWN": "2FF70002AC018D7C",
+  "portWWN": "21020002AC018D7C",
+  "type": 1,
+  "protocol": 1,
+  "partnerPos": {
+    "node": 0,
+    "slot": 0,
+    "cardPort": 2
+  },
+  "failoverState": 1,
+  "device": ["HOST113", "HOST73", "HOST57", "HOST63", "HOST183", "HOST185", "HOST184", "esx96", "AshwiniSR-17286_fc"]
+}, {
+  "portPos": {
+    "node": 1,
+    "slot": 2,
+    "cardPort": 1
+  },
+  "mode": 2,
+  "linkState": 4,
+  "nodeWWN": "2FF70002AC018D7C",
+  "portWWN": "21210002AC018D7C",
+  "type": 3,
+  "protocol": 1,
+  "device": []
+}, {
+  "portPos": {
+    "node": 1,
+    "slot": 2,
+    "cardPort": 2
+  },
+  "mode": 3,
+  "linkState": 4,
+  "nodeWWN": "2FF70202AC018D7C",
+  "portWWN": "21220202AC018D7C",
+  "type": 6,
+  "protocol": 1,
+  "device": ["2FF70002AC001BA0", "2FF70002AC001BA0", "2FF70002AC001BA0", "2FF70002AC001BA0", "2FF70002AC001BA0", "2FF70002AC001BA0", "2FF70002AC001BA0", "2FF70002AC001BA0", "2FF70002AC001BA0"]
+}, {
+  "portPos": {
+    "node": 1,
+    "slot": 2,
+    "cardPort": 3
+  },
+  "mode": 2,
+  "linkState": 4,
+  "nodeWWN": "2FF70002AC018D7C",
+  "portWWN": "21230002AC018D7C",
+  "type": 1,
+  "protocol": 1,
+  "device": ["HOST113", "HOST73", "HOST57", "HOST63", "HOST183", "HOST185", "HOST184", "esx96"]
+}, {
+  "portPos": {
+    "node": 1,
+    "slot": 2,
+    "cardPort": 4
+  },
+  "mode": 2,
+  "linkState": 5,
+  "nodeWWN": "2FF70002AC018D7C",
+  "portWWN": "21240002AC018D7C",
+  "type": 3,
+  "protocol": 1,
+  "device": []
+}]

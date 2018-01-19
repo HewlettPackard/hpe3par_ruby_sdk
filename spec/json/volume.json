@@ -1,0 +1,60 @@
+{
+	"id": 336,
+	"name": "vvr_2",
+	"domain": "SRA_ANISHA",
+	"provisioningType": 2,
+	"copyType": 1,
+	"baseId": 336,
+	"readOnly": false,
+	"state": 1,
+	"failedStates": [],
+	"degradedStates": [],
+	"additionalStates": [],
+	"adminSpace": {
+		"reservedMiB": 256,
+		"rawReservedMiB": 768,
+		"usedMiB": 1,
+		"freeMiB": 255
+	},
+	"snapshotSpace": {
+		"reservedMiB": 1024,
+		"rawReservedMiB": 1024,
+		"usedMiB": 0,
+		"freeMiB": 1024
+	},
+	"userSpace": {
+		"reservedMiB": 1024,
+		"rawReservedMiB": 1024,
+		"usedMiB": 0,
+		"freeMiB": 1024
+	},
+	"sizeMiB": 10240,
+	"wwn": "60002AC000000000000001500000B69E",
+	"creationTimeSec": 1417769140,
+	"creationTime8601": "2014-12-05T00:45:40-08:00",
+	"ssSpcAllocWarningPct": 0,
+	"ssSpcAllocLimitPct": 0,
+	"usrSpcAllocWarningPct": 0,
+	"usrSpcAllocLimitPct": 0,
+	"policies": {
+		"staleSS": true,
+		"oneHost": false,
+		"zeroDetect": true,
+		"system": false,
+		"caching": true,
+		"fsvc": false
+	},
+	"userCPG": "SRA_REC",
+	"snapCPG": "SRA_REC",
+	"uuid": "2948d4d2-627f-4821-acbd-a965248a27e7",
+	"capacityEfficiency": {
+		"compaction": 7447.3
+	},
+	"links": [{
+		"href": "https://15.213.67.206:8080/api/v1/volumes/vvr_2",
+		"rel": "self"
+	}, {
+		"href": "https://15.213.67.206:8080/api/v1/volumespacedistribution/vvr_2",
+		"rel": "volumeSpaceDistribution"
+	}]
+}

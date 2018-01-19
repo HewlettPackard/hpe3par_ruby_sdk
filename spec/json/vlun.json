@@ -1,0 +1,43 @@
+{
+  "total": 3,
+  "members":[
+    {
+      "lun": 0,
+      "volumeName": "test_volume",
+      "hostname": "SAP_ESX202",
+      "remoteName": "10000090FA13C172",
+      "portPos":{"node": 2, "slot": 1, "cardPort": 1},
+      "type": 3,
+      "volumeWWN": "60002AC000000000000000760000B69E",
+      "multipathing": 1,
+      "failedPathPol": 1,
+      "failedPathInterval": 0,
+      "active": true
+    },
+    {
+      "lun": 1,
+      "volumeName": "sapW50_clonecsci",
+      "hostname": "SAP_ESX202",
+      "remoteName": "10000090FA13C172",
+      "portPos":{"node": 2, "slot": 1, "cardPort": 1},
+      "type": 3,
+      "volumeWWN": "60002AC000000000000000770000B69E",
+      "multipathing": 1,
+      "failedPathPol": 1,
+      "failedPathInterval": 0,
+      "active": true
+    },
+    {
+      "lun": 2,
+      "volumeName": "sapW50_clonedum",
+      "hostname": "SAP_ESX202",
+      "remoteName": "10000090FA13C172",
+      "portPos":{"node": 2, "slot": 1, "cardPort": 1},
+      "type": 3,
+      "volumeWWN": "60002AC000000000000000750000B69E",
+      "multipathing": 1,
+      "failedPathPol": 1,
+      "failedPathInterval": 0,
+      "active": true
+    }]
+}

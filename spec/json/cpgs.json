@@ -1,0 +1,3569 @@
+{
+	"total": 55,
+	"members": [{
+			"id": 0,
+			"uuid": "836e9bbd-7776-45ab-9f68-2d4680b21d1f",
+			"name": "FC_r1",
+			"numFPVVs": 3,
+			"numTPVVs": 58,
+			"numTDVVs": 0,
+			"UsrUsage": {
+				"totalMiB": 230272,
+				"rawTotalMiB": 460544,
+				"usedMiB": 230272,
+				"rawUsedMiB": 460544
+			},
+			"SAUsage": {
+				"totalMiB": 34816,
+				"rawTotalMiB": 104448,
+				"usedMiB": 28672,
+				"rawUsedMiB": 86016
+			},
+			"SDUsage": {
+				"totalMiB": 147584,
+				"rawTotalMiB": 295168,
+				"usedMiB": 53760,
+				"rawUsedMiB": 107520
+			},
+			"privateSpaceMiB": {
+				"base": 230272,
+				"rawBase": 460544,
+				"snapshot": 53760,
+				"rawSnapshot": 107520
+			},
+			"sharedSpaceMiB": 0,
+			"rawSharedSpaceMiB": 0,
+			"freeSpaceMiB": 93824,
+			"rawFreeSpaceMiB": 187648,
+			"totalSpaceMiB": 377856,
+			"rawTotalSpaceMiB": 755712,
+			"SAGrowth": {
+				"incrementMiB": 16384,
+				"LDLayout": {
+					"diskPatterns": [{
+						"diskType": 1
+					}],
+					"HA": 2,
+					"diskPatterns": [{
+						"diskType": 1
+					}],
+					"RAIDType": 2
+				}
+			},
+			"SDGrowth": {
+				"incrementMiB": 65536,
+				"LDLayout": {
+					"setSize": 2,
+					"HA": 2,
+					"RAIDType": 2,
+					"diskPatterns": [{
+						"diskType": 1
+					}]
+				}
+			},
+			"state": 1,
+			"failedStates": [],
+			"degradedStates": [],
+			"additionalStates": [],
+			"dedupCapable": false
+		},
+		{
+			"id": 1,
+			"uuid": "a0927298-a9c2-435f-bfe8-46056d6482b6",
+			"name": "FC_r5",
+			"numFPVVs": 0,
+			"numTPVVs": 48,
+			"numTDVVs": 0,
+			"UsrUsage": {
+				"totalMiB": 132864,
+				"rawTotalMiB": 177151,
+				"usedMiB": 132864,
+				"rawUsedMiB": 177151
+			},
+			"SAUsage": {
+				"totalMiB": 32768,
+				"rawTotalMiB": 98304,
+				"usedMiB": 19200,
+				"rawUsedMiB": 57600
+			},
+			"SDUsage": {
+				"totalMiB": 63744,
+				"rawTotalMiB": 84992,
+				"usedMiB": 33792,
+				"rawUsedMiB": 45055
+			},
+			"privateSpaceMiB": {
+				"base": 132864,
+				"rawBase": 177151,
+				"snapshot": 33792,
+				"rawSnapshot": 45055
+			},
+			"sharedSpaceMiB": 0,
+			"rawSharedSpaceMiB": 0,
+			"freeSpaceMiB": 29952,
+			"rawFreeSpaceMiB": 39936,
+			"totalSpaceMiB": 196608,
+			"rawTotalSpaceMiB": 262143,
+			"SAGrowth": {
+				"incrementMiB": 16384,
+				"LDLayout": {
+					"diskPatterns": [{
+						"diskType": 1
+					}],
+					"HA": 2,
+					"diskPatterns": [{
+						"diskType": 1
+					}],
+					"RAIDType": 2
+				}
+			},
+			"SDGrowth": {
+				"incrementMiB": 65536,
+				"LDLayout": {
+					"setSize": 4,
+					"HA": 2,
+					"RAIDType": 3,
+					"diskPatterns": [{
+						"diskType": 1
+					}]
+				}
+			},
+			"state": 1,
+			"failedStates": [],
+			"degradedStates": [],
+			"additionalStates": [],
+			"dedupCapable": false
+		},
+		{
+			"id": 2,
+			"uuid": "fe6f525d-f266-48f8-b0b7-baf59baf6be8",
+			"name": "TEST_CPG",
+			"numFPVVs": 1,
+			"numTPVVs": 13,
+			"numTDVVs": 0,
+			"UsrUsage": {
+				"totalMiB": 53248,
+				"rawTotalMiB": 106496,
+				"usedMiB": 52480,
+				"rawUsedMiB": 104960
+			},
+			"SAUsage": {
+				"totalMiB": 20480,
+				"rawTotalMiB": 61440,
+				"usedMiB": 6016,
+				"rawUsedMiB": 18048
+			},
+			"SDUsage": {
+				"totalMiB": 62464,
+				"rawTotalMiB": 124928,
+				"usedMiB": 12800,
+				"rawUsedMiB": 25600
+			},
+			"privateSpaceMiB": {
+				"base": 53248,
+				"rawBase": 106496,
+				"snapshot": 12800,
+				"rawSnapshot": 25600
+			},
+			"sharedSpaceMiB": 0,
+			"rawSharedSpaceMiB": 0,
+			"freeSpaceMiB": 49664,
+			"rawFreeSpaceMiB": 99328,
+			"totalSpaceMiB": 115712,
+			"rawTotalSpaceMiB": 231424,
+			"SAGrowth": {
+				"incrementMiB": 16384,
+				"LDLayout": {
+					"HA": 2,
+					"diskPatterns": [{
+						"diskType": 1
+					}],
+					"RAIDType": 2
+				}
+			},
+			"SDGrowth": {
+				"incrementMiB": 65536,
+				"LDLayout": {
+					"RAIDType": 2,
+					"HA": 2,
+					"setSize": 2,
+					"chunkletPosPref": 1,
+					"diskPatterns": [{
+						"diskType": 1
+					}]
+				}
+			},
+			"state": 1,
+			"failedStates": [],
+			"degradedStates": [],
+			"additionalStates": [],
+			"dedupCapable": false
+		},
+		{
+			"id": 3,
+			"uuid": "f2eba0b0-416d-4a2e-b3b3-56f89cd0580e",
+			"name": "OV4SC_SSD",
+			"domain": "SCVMM2016",
+			"numFPVVs": 1,
+			"numTPVVs": 2,
+			"numTDVVs": 3,
+			"UsrUsage": {
+				"totalMiB": 16896,
+				"rawTotalMiB": 22527,
+				"usedMiB": 16896,
+				"rawUsedMiB": 22527
+			},
+			"SAUsage": {
+				"totalMiB": 180224,
+				"rawTotalMiB": 540672,
+				"usedMiB": 83200,
+				"rawUsedMiB": 249600
+			},
+			"SDUsage": {
+				"totalMiB": 56832,
+				"rawTotalMiB": 75776,
+				"usedMiB": 2560,
+				"rawUsedMiB": 3413
+			},
+			"privateSpaceMiB": {
+				"base": 12288,
+				"rawBase": 16383,
+				"snapshot": 2560,
+				"rawSnapshot": 3413
+			},
+			"sharedSpaceMiB": 4608,
+			"rawSharedSpaceMiB": 6143,
+			"freeSpaceMiB": 54272,
+			"rawFreeSpaceMiB": 72362,
+			"totalSpaceMiB": 73728,
+			"rawTotalSpaceMiB": 98302,
+			"SAGrowth": {
+				"incrementMiB": 16384,
+				"LDLayout": {
+					"HA": 3,
+					"diskPatterns": [{
+						"diskType": 3,
+						"RPM": 150
+					}],
+					"RAIDType": 2
+				}
+			},
+			"SDGrowth": {
+				"incrementMiB": 16384,
+				"LDLayout": {
+					"RAIDType": 3,
+					"HA": 3,
+					"setSize": 4,
+					"diskPatterns": [{
+						"diskType": 3,
+						"RPM": 150
+					}]
+				}
+			},
+			"state": 1,
+			"failedStates": [],
+			"degradedStates": [],
+			"additionalStates": [],
+			"dedupCapable": true,
+			"tdvvVersion": 3,
+			"ddsRsvdMiB": 67108864
+		},
+		{
+			"id": 4,
+			"uuid": "7a331a2b-50cb-43cd-9630-d61c9b852dbb",
+			"name": "qweqwe",
+			"numFPVVs": 0,
+			"numTPVVs": 0,
+			"numTDVVs": 0,
+			"UsrUsage": {
+				"totalMiB": 0,
+				"rawTotalMiB": 0,
+				"usedMiB": 0,
+				"rawUsedMiB": 0
+			},
+			"SAUsage": {
+				"totalMiB": 0,
+				"rawTotalMiB": 0,
+				"usedMiB": 0,
+				"rawUsedMiB": 0
+			},
+			"SDUsage": {
+				"totalMiB": 0,
+				"rawTotalMiB": 0,
+				"usedMiB": 0,
+				"rawUsedMiB": 0
+			},
+			"privateSpaceMiB": {
+				"base": 0,
+				"rawBase": 0,
+				"snapshot": 0,
+				"rawSnapshot": 0
+			},
+			"sharedSpaceMiB": 0,
+			"rawSharedSpaceMiB": 0,
+			"freeSpaceMiB": 0,
+			"rawFreeSpaceMiB": 0,
+			"totalSpaceMiB": 0,
+			"rawTotalSpaceMiB": 0,
+			"SAGrowth": {
+				"incrementMiB": 16384,
+				"LDLayout": {
+					"diskPatterns": [{
+						"diskType": 1
+					}],
+					"RAIDType": 2
+				}
+			},
+			"SDGrowth": {
+				"incrementMiB": 32768,
+				"LDLayout": {
+					"HA": 3,
+					"RAIDType": 4,
+					"diskPatterns": [{
+						"diskType": 1
+					}]
+				}
+			},
+			"state": 1,
+			"failedStates": [],
+			"degradedStates": [],
+			"additionalStates": [],
+			"dedupCapable": false
+		},
+		{
+			"id": 5,
+			"uuid": "b0af0322-1ad0-4f6b-9036-c42247948c96",
+			"name": "INTLCPG",
+			"domain": "SFA",
+			"numFPVVs": 0,
+			"numTPVVs": 0,
+			"numTDVVs": 0,
+			"UsrUsage": {
+				"totalMiB": 0,
+				"rawTotalMiB": 0,
+				"usedMiB": 0,
+				"rawUsedMiB": 0
+			},
+			"SAUsage": {
+				"totalMiB": 0,
+				"rawTotalMiB": 0,
+				"usedMiB": 0,
+				"rawUsedMiB": 0
+			},
+			"SDUsage": {
+				"totalMiB": 0,
+				"rawTotalMiB": 0,
+				"usedMiB": 0,
+				"rawUsedMiB": 0
+			},
+			"privateSpaceMiB": {
+				"base": 0,
+				"rawBase": 0,
+				"snapshot": 0,
+				"rawSnapshot": 0
+			},
+			"sharedSpaceMiB": 0,
+			"rawSharedSpaceMiB": 0,
+			"freeSpaceMiB": 0,
+			"rawFreeSpaceMiB": 0,
+			"totalSpaceMiB": 0,
+			"rawTotalSpaceMiB": 0,
+			"SAGrowth": {
+				"incrementMiB": 16384,
+				"LDLayout": {
+					"HA": 2,
+					"diskPatterns": [{
+						"diskType": 1
+					}],
+					"RAIDType": 2
+				}
+			},
+			"SDGrowth": {
+				"incrementMiB": 65536,
+				"LDLayout": {
+					"RAIDType": 2,
+					"HA": 2,
+					"setSize": 2,
+					"chunkletPosPref": 1,
+					"diskPatterns": [{
+						"diskType": 1
+					}]
+				}
+			},
+			"state": 1,
+			"failedStates": [],
+			"degradedStates": [],
+			"additionalStates": [],
+			"dedupCapable": false
+		},
+		{
+			"id": 6,
+			"uuid": "67a01f6a-4075-4c87-8a2c-86a58de1c22f",
+			"name": "PMU_CPG",
+			"numFPVVs": 0,
+			"numTPVVs": 0,
+			"numTDVVs": 0,
+			"UsrUsage": {
+				"totalMiB": 0,
+				"rawTotalMiB": 0,
+				"usedMiB": 0,
+				"rawUsedMiB": 0
+			},
+			"SAUsage": {
+				"totalMiB": 0,
+				"rawTotalMiB": 0,
+				"usedMiB": 0,
+				"rawUsedMiB": 0
+			},
+			"SDUsage": {
+				"totalMiB": 0,
+				"rawTotalMiB": 0,
+				"usedMiB": 0,
+				"rawUsedMiB": 0
+			},
+			"privateSpaceMiB": {
+				"base": 0,
+				"rawBase": 0,
+				"snapshot": 0,
+				"rawSnapshot": 0
+			},
+			"sharedSpaceMiB": 0,
+			"rawSharedSpaceMiB": 0,
+			"freeSpaceMiB": 0,
+			"rawFreeSpaceMiB": 0,
+			"totalSpaceMiB": 0,
+			"rawTotalSpaceMiB": 0,
+			"SAGrowth": {
+				"incrementMiB": 16384,
+				"LDLayout": {
+					"diskPatterns": [{
+						"diskType": 1
+					}],
+					"RAIDType": 2
+				}
+			},
+			"SDGrowth": {
+				"incrementMiB": 20480,
+				"LDLayout": {
+					"RAIDType": 1,
+					"setSize": 1,
+					"chunkletPosPref": 1,
+					"diskPatterns": [{
+						"diskType": 1
+					}]
+				}
+			},
+			"state": 1,
+			"failedStates": [],
+			"degradedStates": [],
+			"additionalStates": [],
+			"dedupCapable": false
+		},
+		{
+			"id": 7,
+			"uuid": "5f8a1c0b-b8a0-4c3c-8437-5a94bc4a1d11",
+			"name": "Stonith1_cpg",
+			"domain": "stonith1_domain",
+			"numFPVVs": 0,
+			"numTPVVs": 8,
+			"numTDVVs": 0,
+			"UsrUsage": {
+				"totalMiB": 206976,
+				"rawTotalMiB": 275967,
+				"usedMiB": 206976,
+				"rawUsedMiB": 275967
+			},
+			"SAUsage": {
+				"totalMiB": 16384,
+				"rawTotalMiB": 49152,
+				"usedMiB": 2944,
+				"rawUsedMiB": 8832
+			},
+			"SDUsage": {
+				"totalMiB": 87936,
+				"rawTotalMiB": 117248,
+				"usedMiB": 4096,
+				"rawUsedMiB": 5461
+			},
+			"privateSpaceMiB": {
+				"base": 206976,
+				"rawBase": 275967,
+				"snapshot": 4096,
+				"rawSnapshot": 5461
+			},
+			"sharedSpaceMiB": 0,
+			"rawSharedSpaceMiB": 0,
+			"freeSpaceMiB": 83840,
+			"rawFreeSpaceMiB": 111786,
+			"totalSpaceMiB": 294912,
+			"rawTotalSpaceMiB": 393215,
+			"SAGrowth": {
+				"incrementMiB": 16384,
+				"LDLayout": {
+					"HA": 3,
+					"diskPatterns": [{
+						"diskType": 1,
+						"RPM": 10
+					}],
+					"RAIDType": 2
+				}
+			},
+			"SDGrowth": {
+				"incrementMiB": 65536,
+				"LDLayout": {
+					"RAIDType": 4,
+					"HA": 3,
+					"setSize": 8,
+					"diskPatterns": [{
+						"diskType": 1,
+						"RPM": 10
+					}]
+				}
+			},
+			"state": 1,
+			"failedStates": [],
+			"degradedStates": [],
+			"additionalStates": [],
+			"dedupCapable": false
+		},
+		{
+			"id": 8,
+			"uuid": "944399dd-d842-4a84-b043-32afb02cde21",
+			"name": "SSD_r1",
+			"domain": "SFA",
+			"numFPVVs": 2,
+			"numTPVVs": 1,
+			"numTDVVs": 2,
+			"UsrUsage": {
+				"totalMiB": 15872,
+				"rawTotalMiB": 31744,
+				"usedMiB": 15872,
+				"rawUsedMiB": 31744
+			},
+			"SAUsage": {
+				"totalMiB": 17408,
+				"rawTotalMiB": 52224,
+				"usedMiB": 7680,
+				"rawUsedMiB": 23040
+			},
+			"SDUsage": {
+				"totalMiB": 20992,
+				"rawTotalMiB": 41984,
+				"usedMiB": 4608,
+				"rawUsedMiB": 9216
+			},
+			"privateSpaceMiB": {
+				"base": 7168,
+				"rawBase": 14336,
+				"snapshot": 4608,
+				"rawSnapshot": 9216
+			},
+			"sharedSpaceMiB": 8704,
+			"rawSharedSpaceMiB": 17408,
+			"freeSpaceMiB": 16384,
+			"rawFreeSpaceMiB": 32768,
+			"totalSpaceMiB": 36864,
+			"rawTotalSpaceMiB": 73728,
+			"SAGrowth": {
+				"incrementMiB": 16384,
+				"LDLayout": {
+					"diskPatterns": [{
+						"diskType": 3
+					}],
+					"HA": 2,
+					"diskPatterns": [{
+						"diskType": 3
+					}],
+					"RAIDType": 2
+				}
+			},
+			"SDGrowth": {
+				"incrementMiB": 16384,
+				"LDLayout": {
+					"setSize": 2,
+					"HA": 2,
+					"RAIDType": 2,
+					"diskPatterns": [{
+						"diskType": 3
+					}]
+				}
+			},
+			"state": 1,
+			"failedStates": [],
+			"degradedStates": [],
+			"additionalStates": [],
+			"dedupCapable": true,
+			"tdvvVersion": 2,
+			"ddsRsvdMiB": 67108864
+		},
+		{
+			"id": 9,
+			"uuid": "64d1d48d-697e-470a-8bc4-b45c77391b54",
+			"name": "SANDR_CPG",
+			"domain": "SANDR",
+			"numFPVVs": 0,
+			"numTPVVs": 1,
+			"numTDVVs": 0,
+			"UsrUsage": {
+				"totalMiB": 1024,
+				"rawTotalMiB": 2048,
+				"usedMiB": 1024,
+				"rawUsedMiB": 2048
+			},
+			"SAUsage": {
+				"totalMiB": 16384,
+				"rawTotalMiB": 49152,
+				"usedMiB": 256,
+				"rawUsedMiB": 768
+			},
+			"SDUsage": {
+				"totalMiB": 64512,
+				"rawTotalMiB": 129024,
+				"usedMiB": 1024,
+				"rawUsedMiB": 2048
+			},
+			"privateSpaceMiB": {
+				"base": 1024,
+				"rawBase": 2048,
+				"snapshot": 1024,
+				"rawSnapshot": 2048
+			},
+			"sharedSpaceMiB": 0,
+			"rawSharedSpaceMiB": 0,
+			"freeSpaceMiB": 63488,
+			"rawFreeSpaceMiB": 126976,
+			"totalSpaceMiB": 65536,
+			"rawTotalSpaceMiB": 131072,
+			"SAGrowth": {
+				"incrementMiB": 16384,
+				"LDLayout": {
+					"HA": 2,
+					"diskPatterns": [{
+						"diskType": 1
+					}],
+					"RAIDType": 2
+				}
+			},
+			"SDGrowth": {
+				"incrementMiB": 65536,
+				"LDLayout": {
+					"RAIDType": 2,
+					"HA": 2,
+					"setSize": 2,
+					"chunkletPosPref": 1,
+					"diskPatterns": [{
+						"diskType": 1
+					}]
+				}
+			},
+			"state": 1,
+			"failedStates": [],
+			"degradedStates": [],
+			"additionalStates": [],
+			"dedupCapable": false
+		},
+		{
+			"id": 10,
+			"uuid": "7746f91c-993c-4602-9e72-7b5dee6feddc",
+			"name": "SCVMM_SIDD_CPG",
+			"domain": "SCVMM2016",
+			"numFPVVs": 0,
+			"numTPVVs": 6,
+			"numTDVVs": 0,
+			"UsrUsage": {
+				"totalMiB": 12288,
+				"rawTotalMiB": 24576,
+				"usedMiB": 12288,
+				"rawUsedMiB": 24576
+			},
+			"SAUsage": {
+				"totalMiB": 16384,
+				"rawTotalMiB": 49152,
+				"usedMiB": 3072,
+				"rawUsedMiB": 9216
+			},
+			"SDUsage": {
+				"totalMiB": 92160,
+				"rawTotalMiB": 184320,
+				"usedMiB": 8192,
+				"rawUsedMiB": 16384
+			},
+			"privateSpaceMiB": {
+				"base": 12288,
+				"rawBase": 24576,
+				"snapshot": 8192,
+				"rawSnapshot": 16384
+			},
+			"sharedSpaceMiB": 0,
+			"rawSharedSpaceMiB": 0,
+			"freeSpaceMiB": 83968,
+			"rawFreeSpaceMiB": 167936,
+			"totalSpaceMiB": 104448,
+			"rawTotalSpaceMiB": 208896,
+			"SAGrowth": {
+				"incrementMiB": 16384,
+				"LDLayout": {
+					"diskPatterns": [{
+						"diskType": 1
+					}],
+					"RAIDType": 2
+				}
+			},
+			"SDGrowth": {
+				"warningMiB": 163840,
+				"limitMiB": 204800,
+				"incrementMiB": 51200,
+				"LDLayout": {
+					"diskPatterns": [{
+						"diskType": 1
+					}],
+					"RAIDType": 2
+				}
+			},
+			"state": 1,
+			"failedStates": [],
+			"degradedStates": [],
+			"additionalStates": [],
+			"dedupCapable": false
+		},
+		{
+			"id": 11,
+			"uuid": "cdfae915-ea60-46c4-8cc6-868a39002ebd",
+			"name": "SSD_r5",
+			"domain": "SFA",
+			"numFPVVs": 5,
+			"numTPVVs": 3,
+			"numTDVVs": 3,
+			"UsrUsage": {
+				"totalMiB": 34816,
+				"rawTotalMiB": 46421,
+				"usedMiB": 32768,
+				"rawUsedMiB": 43690
+			},
+			"SAUsage": {
+				"totalMiB": 45056,
+				"rawTotalMiB": 135168,
+				"usedMiB": 5888,
+				"rawUsedMiB": 17664
+			},
+			"SDUsage": {
+				"totalMiB": 26624,
+				"rawTotalMiB": 35498,
+				"usedMiB": 4096,
+				"rawUsedMiB": 5461
+			},
+			"privateSpaceMiB": {
+				"base": 26112,
+				"rawBase": 34815,
+				"snapshot": 4096,
+				"rawSnapshot": 5461
+			},
+			"sharedSpaceMiB": 8704,
+			"rawSharedSpaceMiB": 11605,
+			"freeSpaceMiB": 22528,
+			"rawFreeSpaceMiB": 30037,
+			"totalSpaceMiB": 61440,
+			"rawTotalSpaceMiB": 81919,
+			"SAGrowth": {
+				"incrementMiB": 16384,
+				"LDLayout": {
+					"diskPatterns": [{
+							"diskType": 3
+						},
+						{
+							"diskType": 3
+						}
+					],
+					"RAIDType": 2
+				}
+			},
+			"SDGrowth": {
+				"incrementMiB": 16384,
+				"LDLayout": {
+					"setSize": 4,
+					"HA": 3,
+					"RAIDType": 3,
+					"diskPatterns": [{
+						"diskType": 3
+					}]
+				}
+			},
+			"state": 1,
+			"failedStates": [],
+			"degradedStates": [],
+			"additionalStates": [],
+			"dedupCapable": true,
+			"tdvvVersion": 2,
+			"ddsRsvdMiB": 67108864
+		},
+		{
+			"id": 12,
+			"uuid": "3e58f264-bcd2-4b9a-92b0-73534152a98c",
+			"name": "SFA_CPG219",
+			"domain": "SFA",
+			"numFPVVs": 0,
+			"numTPVVs": 0,
+			"numTDVVs": 0,
+			"UsrUsage": {
+				"totalMiB": 0,
+				"rawTotalMiB": 0,
+				"usedMiB": 0,
+				"rawUsedMiB": 0
+			},
+			"SAUsage": {
+				"totalMiB": 0,
+				"rawTotalMiB": 0,
+				"usedMiB": 0,
+				"rawUsedMiB": 0
+			},
+			"SDUsage": {
+				"totalMiB": 0,
+				"rawTotalMiB": 0,
+				"usedMiB": 0,
+				"rawUsedMiB": 0
+			},
+			"privateSpaceMiB": {
+				"base": 0,
+				"rawBase": 0,
+				"snapshot": 0,
+				"rawSnapshot": 0
+			},
+			"sharedSpaceMiB": 0,
+			"rawSharedSpaceMiB": 0,
+			"freeSpaceMiB": 0,
+			"rawFreeSpaceMiB": 0,
+			"totalSpaceMiB": 0,
+			"rawTotalSpaceMiB": 0,
+			"SAGrowth": {
+				"incrementMiB": 16384,
+				"LDLayout": {
+					"HA": 2,
+					"diskPatterns": [{
+						"diskType": 1
+					}],
+					"RAIDType": 2
+				}
+			},
+			"SDGrowth": {
+				"incrementMiB": 16384,
+				"LDLayout": {
+					"RAIDType": 2,
+					"HA": 2,
+					"setSize": 2,
+					"chunkletPosPref": 1,
+					"diskPatterns": [{
+						"diskType": 1
+					}]
+				}
+			},
+			"state": 1,
+			"failedStates": [],
+			"degradedStates": [],
+			"additionalStates": [],
+			"dedupCapable": false
+		},
+		{
+			"id": 13,
+			"uuid": "329757d1-2387-480f-aa82-e82e1f13e01e",
+			"name": "roy_cpg",
+			"domain": "vro_roy",
+			"numFPVVs": 0,
+			"numTPVVs": 1,
+			"numTDVVs": 0,
+			"UsrUsage": {
+				"totalMiB": 1024,
+				"rawTotalMiB": 1365,
+				"usedMiB": 1024,
+				"rawUsedMiB": 1365
+			},
+			"SAUsage": {
+				"totalMiB": 57344,
+				"rawTotalMiB": 172032,
+				"usedMiB": 256,
+				"rawUsedMiB": 768
+			},
+			"SDUsage": {
+				"totalMiB": 72704,
+				"rawTotalMiB": 96938,
+				"usedMiB": 0,
+				"rawUsedMiB": 0
+			},
+			"privateSpaceMiB": {
+				"base": 1024,
+				"rawBase": 1365,
+				"snapshot": 0,
+				"rawSnapshot": 0
+			},
+			"sharedSpaceMiB": 0,
+			"rawSharedSpaceMiB": 0,
+			"freeSpaceMiB": 72704,
+			"rawFreeSpaceMiB": 96938,
+			"totalSpaceMiB": 73728,
+			"rawTotalSpaceMiB": 98303,
+			"SAGrowth": {
+				"incrementMiB": 16384,
+				"LDLayout": {
+					"HA": 3,
+					"diskPatterns": [{
+						"diskType": 3,
+						"RPM": 150
+					}],
+					"RAIDType": 2
+				}
+			},
+			"SDGrowth": {
+				"limitMiB": 51200,
+				"incrementMiB": 32768,
+				"LDLayout": {
+					"RAIDType": 2,
+					"setSize": 2,
+					"diskPatterns": [{
+						"diskType": 3
+					}]
+				}
+			},
+			"state": 3,
+			"failedStates": [
+				2
+			],
+			"degradedStates": [],
+			"additionalStates": [],
+			"dedupCapable": true
+		},
+		{
+			"id": 14,
+			"uuid": "51f658be-bb37-4060-8ba3-464ea8c5506d",
+			"name": "SCOMAlertCPG",
+			"domain": "SCVMM2016",
+			"numFPVVs": 1,
+			"numTPVVs": 0,
+			"numTDVVs": 0,
+			"UsrUsage": {
+				"totalMiB": 16384,
+				"rawTotalMiB": 32768,
+				"usedMiB": 16384,
+				"rawUsedMiB": 32768
+			},
+			"SAUsage": {
+				"totalMiB": 0,
+				"rawTotalMiB": 0,
+				"usedMiB": 0,
+				"rawUsedMiB": 0
+			},
+			"SDUsage": {
+				"totalMiB": 0,
+				"rawTotalMiB": 0,
+				"usedMiB": 0,
+				"rawUsedMiB": 0
+			},
+			"privateSpaceMiB": {
+				"base": 16384,
+				"rawBase": 32768,
+				"snapshot": 0,
+				"rawSnapshot": 0
+			},
+			"sharedSpaceMiB": 0,
+			"rawSharedSpaceMiB": 0,
+			"freeSpaceMiB": 0,
+			"rawFreeSpaceMiB": 0,
+			"totalSpaceMiB": 16384,
+			"rawTotalSpaceMiB": 32768,
+			"SAGrowth": {
+				"incrementMiB": 16384,
+				"LDLayout": {
+					"HA": 3,
+					"diskPatterns": [{
+						"diskType": 1
+					}],
+					"RAIDType": 2
+				}
+			},
+			"SDGrowth": {
+				"warningMiB": 13107,
+				"limitMiB": 16384,
+				"incrementMiB": 16384,
+				"LDLayout": {
+					"RAIDType": 2,
+					"HA": 3,
+					"chunkletPosPref": 1,
+					"diskPatterns": [{
+						"diskType": 1
+					}]
+				}
+			},
+			"state": 3,
+			"failedStates": [
+				2
+			],
+			"degradedStates": [],
+			"additionalStates": [],
+			"dedupCapable": false
+		},
+		{
+			"id": 15,
+			"uuid": "c977345a-b9d6-45b1-b8ae-70418e1d0342",
+			"name": "test",
+			"domain": "SFA",
+			"numFPVVs": 1,
+			"numTPVVs": 1,
+			"numTDVVs": 0,
+			"UsrUsage": {
+				"totalMiB": 1536,
+				"rawTotalMiB": 3072,
+				"usedMiB": 768,
+				"rawUsedMiB": 1536
+			},
+			"SAUsage": {
+				"totalMiB": 16384,
+				"rawTotalMiB": 49152,
+				"usedMiB": 128,
+				"rawUsedMiB": 384
+			},
+			"SDUsage": {
+				"totalMiB": 65024,
+				"rawTotalMiB": 130048,
+				"usedMiB": 0,
+				"rawUsedMiB": 0
+			},
+			"privateSpaceMiB": {
+				"base": 1536,
+				"rawBase": 3072,
+				"snapshot": 0,
+				"rawSnapshot": 0
+			},
+			"sharedSpaceMiB": 0,
+			"rawSharedSpaceMiB": 0,
+			"freeSpaceMiB": 65024,
+			"rawFreeSpaceMiB": 130048,
+			"totalSpaceMiB": 66560,
+			"rawTotalSpaceMiB": 133120,
+			"SAGrowth": {
+				"incrementMiB": 16384,
+				"LDLayout": {
+					"HA": 2,
+					"diskPatterns": [{
+						"diskType": 3
+					}],
+					"RAIDType": 2
+				}
+			},
+			"SDGrowth": {
+				"incrementMiB": 65536,
+				"LDLayout": {
+					"RAIDType": 2,
+					"HA": 2,
+					"setSize": 2,
+					"chunkletPosPref": 1,
+					"diskPatterns": [{
+						"diskType": 3
+					}]
+				}
+			},
+			"state": 1,
+			"failedStates": [],
+			"degradedStates": [],
+			"additionalStates": [],
+			"dedupCapable": true
+		},
+		{
+			"id": 16,
+			"uuid": "29e7221a-bd82-40c7-ba92-54674ee41147",
+			"name": "cpg_1",
+			"numFPVVs": 0,
+			"numTPVVs": 5,
+			"numTDVVs": 0,
+			"UsrUsage": {
+				"totalMiB": 2048,
+				"rawTotalMiB": 2730,
+				"usedMiB": 2048,
+				"rawUsedMiB": 2730
+			},
+			"SAUsage": {
+				"totalMiB": 16384,
+				"rawTotalMiB": 49152,
+				"usedMiB": 768,
+				"rawUsedMiB": 2304
+			},
+			"SDUsage": {
+				"totalMiB": 47104,
+				"rawTotalMiB": 62805,
+				"usedMiB": 256,
+				"rawUsedMiB": 341
+			},
+			"privateSpaceMiB": {
+				"base": 2048,
+				"rawBase": 2730,
+				"snapshot": 256,
+				"rawSnapshot": 341
+			},
+			"sharedSpaceMiB": 0,
+			"rawSharedSpaceMiB": 0,
+			"freeSpaceMiB": 46848,
+			"rawFreeSpaceMiB": 62464,
+			"totalSpaceMiB": 49152,
+			"rawTotalSpaceMiB": 65535,
+			"SAGrowth": {
+				"incrementMiB": 16384,
+				"LDLayout": {
+					"diskPatterns": [{
+						"diskType": 1
+					}],
+					"RAIDType": 2
+				}
+			},
+			"SDGrowth": {
+				"incrementMiB": 32768,
+				"LDLayout": {
+					"HA": 3,
+					"RAIDType": 4,
+					"diskPatterns": [{
+						"diskType": 1
+					}]
+				}
+			},
+			"state": 1,
+			"failedStates": [],
+			"degradedStates": [],
+			"additionalStates": [],
+			"dedupCapable": false
+		},
+		{
+			"id": 17,
+			"uuid": "2fe27102-e787-4727-a209-ac8bd5f327ce",
+			"name": "cpg_3",
+			"numFPVVs": 0,
+			"numTPVVs": 2,
+			"numTDVVs": 0,
+			"UsrUsage": {
+				"totalMiB": 0,
+				"rawTotalMiB": 0,
+				"usedMiB": 0,
+				"rawUsedMiB": 0
+			},
+			"SAUsage": {
+				"totalMiB": 16384,
+				"rawTotalMiB": 49152,
+				"usedMiB": 0,
+				"rawUsedMiB": 0
+			},
+			"SDUsage": {
+				"totalMiB": 49152,
+				"rawTotalMiB": 65536,
+				"usedMiB": 1024,
+				"rawUsedMiB": 1365
+			},
+			"privateSpaceMiB": {
+				"base": 0,
+				"rawBase": 0,
+				"snapshot": 1024,
+				"rawSnapshot": 1365
+			},
+			"sharedSpaceMiB": 0,
+			"rawSharedSpaceMiB": 0,
+			"freeSpaceMiB": 48128,
+			"rawFreeSpaceMiB": 64170,
+			"totalSpaceMiB": 49152,
+			"rawTotalSpaceMiB": 65535,
+			"SAGrowth": {
+				"incrementMiB": 16384,
+				"LDLayout": {
+					"diskPatterns": [{
+						"diskType": 1
+					}],
+					"RAIDType": 2
+				}
+			},
+			"SDGrowth": {
+				"incrementMiB": 32768,
+				"LDLayout": {
+					"HA": 3,
+					"RAIDType": 4,
+					"diskPatterns": [{
+						"diskType": 1
+					}]
+				}
+			},
+			"state": 1,
+			"failedStates": [],
+			"degradedStates": [],
+			"additionalStates": [],
+			"dedupCapable": false
+		},
+		{
+			"id": 18,
+			"uuid": "f0638262-ae34-4021-a0db-1149a34d26ac",
+			"name": "cpg_test_09",
+			"numFPVVs": 0,
+			"numTPVVs": 0,
+			"numTDVVs": 0,
+			"UsrUsage": {
+				"totalMiB": 0,
+				"rawTotalMiB": 0,
+				"usedMiB": 0,
+				"rawUsedMiB": 0
+			},
+			"SAUsage": {
+				"totalMiB": 0,
+				"rawTotalMiB": 0,
+				"usedMiB": 0,
+				"rawUsedMiB": 0
+			},
+			"SDUsage": {
+				"totalMiB": 0,
+				"rawTotalMiB": 0,
+				"usedMiB": 0,
+				"rawUsedMiB": 0
+			},
+			"privateSpaceMiB": {
+				"base": 0,
+				"rawBase": 0,
+				"snapshot": 0,
+				"rawSnapshot": 0
+			},
+			"sharedSpaceMiB": 0,
+			"rawSharedSpaceMiB": 0,
+			"freeSpaceMiB": 0,
+			"rawFreeSpaceMiB": 0,
+			"totalSpaceMiB": 0,
+			"rawTotalSpaceMiB": 0,
+			"SAGrowth": {
+				"incrementMiB": 16384,
+				"LDLayout": {
+					"diskPatterns": [{
+						"diskType": 1
+					}],
+					"RAIDType": 2
+				}
+			},
+			"SDGrowth": {
+				"incrementMiB": 32768,
+				"LDLayout": {
+					"RAIDType": 1,
+					"setSize": 1,
+					"diskPatterns": [{
+						"diskType": 1
+					}]
+				}
+			},
+			"state": 1,
+			"failedStates": [],
+			"degradedStates": [],
+			"additionalStates": [],
+			"dedupCapable": false
+		},
+		{
+			"id": 19,
+			"uuid": "82afee34-58c5-4d1c-8b79-fcfdd6b1a4a1",
+			"name": "cpg_6",
+			"numFPVVs": 0,
+			"numTPVVs": 2,
+			"numTDVVs": 0,
+			"UsrUsage": {
+				"totalMiB": 512,
+				"rawTotalMiB": 1536,
+				"usedMiB": 512,
+				"rawUsedMiB": 1536
+			},
+			"SAUsage": {
+				"totalMiB": 16384,
+				"rawTotalMiB": 49152,
+				"usedMiB": 192,
+				"rawUsedMiB": 576
+			},
+			"SDUsage": {
+				"totalMiB": 32256,
+				"rawTotalMiB": 96768,
+				"usedMiB": 0,
+				"rawUsedMiB": 0
+			},
+			"privateSpaceMiB": {
+				"base": 512,
+				"rawBase": 1536,
+				"snapshot": 0,
+				"rawSnapshot": 0
+			},
+			"sharedSpaceMiB": 0,
+			"rawSharedSpaceMiB": 0,
+			"freeSpaceMiB": 32256,
+			"rawFreeSpaceMiB": 96768,
+			"totalSpaceMiB": 32768,
+			"rawTotalSpaceMiB": 98304,
+			"SAGrowth": {
+				"incrementMiB": 16384,
+				"LDLayout": {
+					"diskPatterns": [{
+						"diskType": 1
+					}],
+					"RAIDType": 2
+				}
+			},
+			"SDGrowth": {
+				"limitMiB": 1048576,
+				"incrementMiB": 32768,
+				"LDLayout": {
+					"RAIDType": 2,
+					"setSize": 3,
+					"HA": 3,
+					"diskPatterns": [{
+						"diskType": 3
+					}]
+				}
+			},
+			"state": 1,
+			"failedStates": [],
+			"degradedStates": [],
+			"additionalStates": [],
+			"dedupCapable": false
+		},
+		{
+			"id": 20,
+			"uuid": "d37d9d3d-bb93-4140-ae4c-d1abc151faad",
+			"name": "252_CPG_1",
+			"domain": "SFA",
+			"numFPVVs": 0,
+			"numTPVVs": 1,
+			"numTDVVs": 0,
+			"UsrUsage": {
+				"totalMiB": 8192,
+				"rawTotalMiB": 16384,
+				"usedMiB": 8192,
+				"rawUsedMiB": 16384
+			},
+			"SAUsage": {
+				"totalMiB": 16384,
+				"rawTotalMiB": 49152,
+				"usedMiB": 384,
+				"rawUsedMiB": 1152
+			},
+			"SDUsage": {
+				"totalMiB": 69632,
+				"rawTotalMiB": 139264,
+				"usedMiB": 0,
+				"rawUsedMiB": 0
+			},
+			"privateSpaceMiB": {
+				"base": 8192,
+				"rawBase": 16384,
+				"snapshot": 0,
+				"rawSnapshot": 0
+			},
+			"sharedSpaceMiB": 0,
+			"rawSharedSpaceMiB": 0,
+			"freeSpaceMiB": 69632,
+			"rawFreeSpaceMiB": 139264,
+			"totalSpaceMiB": 77824,
+			"rawTotalSpaceMiB": 155648,
+			"SAGrowth": {
+				"incrementMiB": 16384,
+				"LDLayout": {
+					"HA": 2,
+					"diskPatterns": [{
+						"diskType": 1
+					}],
+					"RAIDType": 2
+				}
+			},
+			"SDGrowth": {
+				"incrementMiB": 16384,
+				"LDLayout": {
+					"RAIDType": 2,
+					"HA": 2,
+					"setSize": 2,
+					"chunkletPosPref": 1,
+					"diskPatterns": [{
+						"diskType": 1
+					}]
+				}
+			},
+			"state": 1,
+			"failedStates": [],
+			"degradedStates": [],
+			"additionalStates": [],
+			"dedupCapable": false
+		},
+		{
+			"id": 21,
+			"uuid": "d023d8cc-9a5d-4eb4-960f-8cbbb624bc6b",
+			"name": "SFA_CPG_252",
+			"domain": "SFA",
+			"numFPVVs": 0,
+			"numTPVVs": 0,
+			"numTDVVs": 0,
+			"UsrUsage": {
+				"totalMiB": 0,
+				"rawTotalMiB": 0,
+				"usedMiB": 0,
+				"rawUsedMiB": 0
+			},
+			"SAUsage": {
+				"totalMiB": 0,
+				"rawTotalMiB": 0,
+				"usedMiB": 0,
+				"rawUsedMiB": 0
+			},
+			"SDUsage": {
+				"totalMiB": 0,
+				"rawTotalMiB": 0,
+				"usedMiB": 0,
+				"rawUsedMiB": 0
+			},
+			"privateSpaceMiB": {
+				"base": 0,
+				"rawBase": 0,
+				"snapshot": 0,
+				"rawSnapshot": 0
+			},
+			"sharedSpaceMiB": 0,
+			"rawSharedSpaceMiB": 0,
+			"freeSpaceMiB": 0,
+			"rawFreeSpaceMiB": 0,
+			"totalSpaceMiB": 0,
+			"rawTotalSpaceMiB": 0,
+			"SAGrowth": {
+				"incrementMiB": 16384,
+				"LDLayout": {
+					"HA": 2,
+					"diskPatterns": [{
+						"diskType": 1
+					}],
+					"RAIDType": 2
+				}
+			},
+			"SDGrowth": {
+				"incrementMiB": 65536,
+				"LDLayout": {
+					"RAIDType": 2,
+					"HA": 2,
+					"setSize": 2,
+					"chunkletPosPref": 1,
+					"diskPatterns": [{
+						"diskType": 1
+					}]
+				}
+			},
+			"state": 1,
+			"failedStates": [],
+			"degradedStates": [],
+			"additionalStates": [],
+			"dedupCapable": false
+		},
+		{
+			"id": 22,
+			"uuid": "80adcf6b-9bb4-4d63-8e2a-4b792a6172a8",
+			"name": "CPG_capacitycriticalAlert",
+			"domain": "SFA",
+			"numFPVVs": 1,
+			"numTPVVs": 0,
+			"numTDVVs": 0,
+			"UsrUsage": {
+				"totalMiB": 8192,
+				"rawTotalMiB": 16384,
+				"usedMiB": 5120,
+				"rawUsedMiB": 10240
+			},
+			"SAUsage": {
+				"totalMiB": 0,
+				"rawTotalMiB": 0,
+				"usedMiB": 0,
+				"rawUsedMiB": 0
+			},
+			"SDUsage": {
+				"totalMiB": 0,
+				"rawTotalMiB": 0,
+				"usedMiB": 0,
+				"rawUsedMiB": 0
+			},
+			"privateSpaceMiB": {
+				"base": 8192,
+				"rawBase": 16384,
+				"snapshot": 0,
+				"rawSnapshot": 0
+			},
+			"sharedSpaceMiB": 0,
+			"rawSharedSpaceMiB": 0,
+			"freeSpaceMiB": 0,
+			"rawFreeSpaceMiB": 0,
+			"totalSpaceMiB": 8192,
+			"rawTotalSpaceMiB": 16384,
+			"SAGrowth": {
+				"incrementMiB": 16384,
+				"LDLayout": {
+					"HA": 2,
+					"diskPatterns": [{
+						"diskType": 1
+					}],
+					"RAIDType": 2
+				}
+			},
+			"SDGrowth": {
+				"incrementMiB": 16384,
+				"LDLayout": {
+					"RAIDType": 2,
+					"HA": 2,
+					"setSize": 2,
+					"chunkletPosPref": 1,
+					"diskPatterns": [{
+						"diskType": 1
+					}]
+				}
+			},
+			"state": 1,
+			"failedStates": [],
+			"degradedStates": [],
+			"additionalStates": [],
+			"dedupCapable": false
+		},
+		{
+			"id": 23,
+			"uuid": "3cacfd6c-5bb9-47fa-982b-191cc8cc165e",
+			"name": "SSD_CPG",
+			"numFPVVs": 0,
+			"numTPVVs": 1,
+			"numTDVVs": 0,
+			"UsrUsage": {
+				"totalMiB": 2048,
+				"rawTotalMiB": 4096,
+				"usedMiB": 2048,
+				"rawUsedMiB": 4096
+			},
+			"SAUsage": {
+				"totalMiB": 16384,
+				"rawTotalMiB": 49152,
+				"usedMiB": 384,
+				"rawUsedMiB": 1152
+			},
+			"SDUsage": {
+				"totalMiB": 63488,
+				"rawTotalMiB": 126976,
+				"usedMiB": 0,
+				"rawUsedMiB": 0
+			},
+			"privateSpaceMiB": {
+				"base": 2048,
+				"rawBase": 4096,
+				"snapshot": 0,
+				"rawSnapshot": 0
+			},
+			"sharedSpaceMiB": 0,
+			"rawSharedSpaceMiB": 0,
+			"freeSpaceMiB": 63488,
+			"rawFreeSpaceMiB": 126976,
+			"totalSpaceMiB": 65536,
+			"rawTotalSpaceMiB": 131072,
+			"SAGrowth": {
+				"incrementMiB": 16384,
+				"LDLayout": {
+					"HA": 2,
+					"diskPatterns": [{
+						"diskType": 3
+					}],
+					"RAIDType": 2
+				}
+			},
+			"SDGrowth": {
+				"incrementMiB": 65536,
+				"LDLayout": {
+					"RAIDType": 2,
+					"HA": 2,
+					"setSize": 2,
+					"chunkletPosPref": 1,
+					"diskPatterns": [{
+						"diskType": 3
+					}]
+				}
+			},
+			"state": 1,
+			"failedStates": [],
+			"degradedStates": [],
+			"additionalStates": [],
+			"dedupCapable": true
+		},
+		{
+			"id": 24,
+			"uuid": "f6def0ce-8462-4405-91e2-fb50508f5bde",
+			"name": "CPG_102",
+			"domain": "SFA",
+			"numFPVVs": 2,
+			"numTPVVs": 0,
+			"numTDVVs": 0,
+			"UsrUsage": {
+				"totalMiB": 65536,
+				"rawTotalMiB": 131072,
+				"usedMiB": 61440,
+				"rawUsedMiB": 122880
+			},
+			"SAUsage": {
+				"totalMiB": 0,
+				"rawTotalMiB": 0,
+				"usedMiB": 0,
+				"rawUsedMiB": 0
+			},
+			"SDUsage": {
+				"totalMiB": 0,
+				"rawTotalMiB": 0,
+				"usedMiB": 0,
+				"rawUsedMiB": 0
+			},
+			"privateSpaceMiB": {
+				"base": 65536,
+				"rawBase": 131072,
+				"snapshot": 0,
+				"rawSnapshot": 0
+			},
+			"sharedSpaceMiB": 0,
+			"rawSharedSpaceMiB": 0,
+			"freeSpaceMiB": 0,
+			"rawFreeSpaceMiB": 0,
+			"totalSpaceMiB": 65536,
+			"rawTotalSpaceMiB": 131072,
+			"SAGrowth": {
+				"incrementMiB": 16384,
+				"LDLayout": {
+					"HA": 2,
+					"diskPatterns": [{
+						"diskType": 1
+					}],
+					"RAIDType": 2
+				}
+			},
+			"SDGrowth": {
+				"incrementMiB": 65536,
+				"LDLayout": {
+					"RAIDType": 2,
+					"HA": 2,
+					"setSize": 2,
+					"chunkletPosPref": 1,
+					"diskPatterns": [{
+						"diskType": 1
+					}]
+				}
+			},
+			"state": 1,
+			"failedStates": [],
+			"degradedStates": [],
+			"additionalStates": [],
+			"dedupCapable": false
+		},
+		{
+			"id": 25,
+			"uuid": "a536c97f-d27b-4d19-9e8d-3ac59349646a",
+			"name": ".cpg",
+			"numFPVVs": 0,
+			"numTPVVs": 1,
+			"numTDVVs": 0,
+			"UsrUsage": {
+				"totalMiB": 512,
+				"rawTotalMiB": 682,
+				"usedMiB": 512,
+				"rawUsedMiB": 682
+			},
+			"SAUsage": {
+				"totalMiB": 16384,
+				"rawTotalMiB": 49152,
+				"usedMiB": 128,
+				"rawUsedMiB": 384
+			},
+			"SDUsage": {
+				"totalMiB": 48640,
+				"rawTotalMiB": 64853,
+				"usedMiB": 0,
+				"rawUsedMiB": 0
+			},
+			"privateSpaceMiB": {
+				"base": 512,
+				"rawBase": 682,
+				"snapshot": 0,
+				"rawSnapshot": 0
+			},
+			"sharedSpaceMiB": 0,
+			"rawSharedSpaceMiB": 0,
+			"freeSpaceMiB": 48640,
+			"rawFreeSpaceMiB": 64853,
+			"totalSpaceMiB": 49152,
+			"rawTotalSpaceMiB": 65535,
+			"SAGrowth": {
+				"incrementMiB": 16384,
+				"LDLayout": {
+					"diskPatterns": [{
+						"diskType": 1
+					}],
+					"RAIDType": 2
+				}
+			},
+			"SDGrowth": {
+				"incrementMiB": 32768,
+				"LDLayout": {
+					"HA": 3,
+					"RAIDType": 4,
+					"diskPatterns": [{
+						"diskType": 1
+					}]
+				}
+			},
+			"state": 1,
+			"failedStates": [],
+			"degradedStates": [],
+			"additionalStates": [],
+			"dedupCapable": false
+		},
+		{
+			"id": 26,
+			"uuid": "93a2672b-b8d2-471f-8e55-62eb07b47f7c",
+			"name": "awqsedrftgyhujsedrftgyhujik",
+			"numFPVVs": 0,
+			"numTPVVs": 0,
+			"numTDVVs": 0,
+			"UsrUsage": {
+				"totalMiB": 0,
+				"rawTotalMiB": 0,
+				"usedMiB": 0,
+				"rawUsedMiB": 0
+			},
+			"SAUsage": {
+				"totalMiB": 0,
+				"rawTotalMiB": 0,
+				"usedMiB": 0,
+				"rawUsedMiB": 0
+			},
+			"SDUsage": {
+				"totalMiB": 0,
+				"rawTotalMiB": 0,
+				"usedMiB": 0,
+				"rawUsedMiB": 0
+			},
+			"privateSpaceMiB": {
+				"base": 0,
+				"rawBase": 0,
+				"snapshot": 0,
+				"rawSnapshot": 0
+			},
+			"sharedSpaceMiB": 0,
+			"rawSharedSpaceMiB": 0,
+			"freeSpaceMiB": 0,
+			"rawFreeSpaceMiB": 0,
+			"totalSpaceMiB": 0,
+			"rawTotalSpaceMiB": 0,
+			"SAGrowth": {
+				"incrementMiB": 16384,
+				"LDLayout": {
+					"diskPatterns": [{
+						"diskType": 1
+					}],
+					"RAIDType": 2
+				}
+			},
+			"SDGrowth": {
+				"incrementMiB": 32768,
+				"LDLayout": {
+					"HA": 3,
+					"RAIDType": 4,
+					"diskPatterns": [{
+						"diskType": 1
+					}]
+				}
+			},
+			"state": 1,
+			"failedStates": [],
+			"degradedStates": [],
+			"additionalStates": [],
+			"dedupCapable": false
+		},
+		{
+			"id": 27,
+			"uuid": "829d1834-21ea-4410-8b6a-f7864071abb2",
+			"name": "qawszxcdfrvtgbhynujmkiloplkjn",
+			"numFPVVs": 0,
+			"numTPVVs": 0,
+			"numTDVVs": 0,
+			"UsrUsage": {
+				"totalMiB": 0,
+				"rawTotalMiB": 0,
+				"usedMiB": 0,
+				"rawUsedMiB": 0
+			},
+			"SAUsage": {
+				"totalMiB": 0,
+				"rawTotalMiB": 0,
+				"usedMiB": 0,
+				"rawUsedMiB": 0
+			},
+			"SDUsage": {
+				"totalMiB": 0,
+				"rawTotalMiB": 0,
+				"usedMiB": 0,
+				"rawUsedMiB": 0
+			},
+			"privateSpaceMiB": {
+				"base": 0,
+				"rawBase": 0,
+				"snapshot": 0,
+				"rawSnapshot": 0
+			},
+			"sharedSpaceMiB": 0,
+			"rawSharedSpaceMiB": 0,
+			"freeSpaceMiB": 0,
+			"rawFreeSpaceMiB": 0,
+			"totalSpaceMiB": 0,
+			"rawTotalSpaceMiB": 0,
+			"SAGrowth": {
+				"incrementMiB": 16384,
+				"LDLayout": {
+					"diskPatterns": [{
+						"diskType": 1
+					}],
+					"RAIDType": 2
+				}
+			},
+			"SDGrowth": {
+				"incrementMiB": 32768,
+				"LDLayout": {
+					"HA": 3,
+					"RAIDType": 4,
+					"diskPatterns": [{
+						"diskType": 1
+					}]
+				}
+			},
+			"state": 1,
+			"failedStates": [],
+			"degradedStates": [],
+			"additionalStates": [],
+			"dedupCapable": false
+		},
+		{
+			"id": 28,
+			"uuid": "f31fb7cb-0b58-4940-ac9e-7f4446a7f99b",
+			"name": "roy_1",
+			"numFPVVs": 0,
+			"numTPVVs": 3,
+			"numTDVVs": 0,
+			"UsrUsage": {
+				"totalMiB": 2304,
+				"rawTotalMiB": 4608,
+				"usedMiB": 2304,
+				"rawUsedMiB": 4608
+			},
+			"SAUsage": {
+				"totalMiB": 16384,
+				"rawTotalMiB": 49152,
+				"usedMiB": 960,
+				"rawUsedMiB": 2880
+			},
+			"SDUsage": {
+				"totalMiB": 1792,
+				"rawTotalMiB": 3584,
+				"usedMiB": 1536,
+				"rawUsedMiB": 3072
+			},
+			"privateSpaceMiB": {
+				"base": 2304,
+				"rawBase": 4608,
+				"snapshot": 1536,
+				"rawSnapshot": 3072
+			},
+			"sharedSpaceMiB": 0,
+			"rawSharedSpaceMiB": 0,
+			"freeSpaceMiB": 256,
+			"rawFreeSpaceMiB": 512,
+			"totalSpaceMiB": 4096,
+			"rawTotalSpaceMiB": 8192,
+			"SAGrowth": {
+				"incrementMiB": 16384,
+				"LDLayout": {
+					"HA": 2,
+					"diskPatterns": [{
+						"diskType": 1
+					}],
+					"RAIDType": 2
+				}
+			},
+			"SDGrowth": {
+				"warningMiB": 512,
+				"limitMiB": 512,
+				"incrementMiB": 16384,
+				"LDLayout": {
+					"RAIDType": 2,
+					"setSize": 2,
+					"HA": 2,
+					"diskPatterns": [{
+						"diskType": 1
+					}]
+				}
+			},
+			"state": 3,
+			"failedStates": [
+				2
+			],
+			"degradedStates": [],
+			"additionalStates": [],
+			"dedupCapable": false
+		},
+		{
+			"id": 29,
+			"uuid": "2b10e0b3-ee6d-4762-a75c-65ecb1d0a1ea",
+			"name": "vro_autotest_ssd_r5",
+			"numFPVVs": 0,
+			"numTPVVs": 0,
+			"numTDVVs": 0,
+			"UsrUsage": {
+				"totalMiB": 0,
+				"rawTotalMiB": 0,
+				"usedMiB": 0,
+				"rawUsedMiB": 0
+			},
+			"SAUsage": {
+				"totalMiB": 0,
+				"rawTotalMiB": 0,
+				"usedMiB": 0,
+				"rawUsedMiB": 0
+			},
+			"SDUsage": {
+				"totalMiB": 0,
+				"rawTotalMiB": 0,
+				"usedMiB": 0,
+				"rawUsedMiB": 0
+			},
+			"privateSpaceMiB": {
+				"base": 0,
+				"rawBase": 0,
+				"snapshot": 0,
+				"rawSnapshot": 0
+			},
+			"sharedSpaceMiB": 0,
+			"rawSharedSpaceMiB": 0,
+			"freeSpaceMiB": 0,
+			"rawFreeSpaceMiB": 0,
+			"totalSpaceMiB": 0,
+			"rawTotalSpaceMiB": 0,
+			"SAGrowth": {
+				"incrementMiB": 16384,
+				"LDLayout": {
+					"HA": 3,
+					"diskPatterns": [{
+						"diskType": 3,
+						"RPM": 150
+					}],
+					"RAIDType": 2
+				}
+			},
+			"SDGrowth": {
+				"incrementMiB": 65536,
+				"LDLayout": {
+					"RAIDType": 3,
+					"HA": 3,
+					"setSize": 4,
+					"diskPatterns": [{
+						"diskType": 3,
+						"RPM": 150
+					}]
+				}
+			},
+			"state": 1,
+			"failedStates": [],
+			"degradedStates": [],
+			"additionalStates": [],
+			"dedupCapable": true
+		},
+		{
+			"id": 30,
+			"uuid": "26207d27-04aa-4d5e-b29f-f6fe5997bccc",
+			"name": "cpg_test",
+			"numFPVVs": 0,
+			"numTPVVs": 6,
+			"numTDVVs": 0,
+			"UsrUsage": {
+				"totalMiB": 3072,
+				"rawTotalMiB": 4095,
+				"usedMiB": 3072,
+				"rawUsedMiB": 4095
+			},
+			"SAUsage": {
+				"totalMiB": 16384,
+				"rawTotalMiB": 49152,
+				"usedMiB": 1152,
+				"rawUsedMiB": 3456
+			},
+			"SDUsage": {
+				"totalMiB": 46080,
+				"rawTotalMiB": 61440,
+				"usedMiB": 512,
+				"rawUsedMiB": 682
+			},
+			"privateSpaceMiB": {
+				"base": 3072,
+				"rawBase": 4095,
+				"snapshot": 512,
+				"rawSnapshot": 682
+			},
+			"sharedSpaceMiB": 0,
+			"rawSharedSpaceMiB": 0,
+			"freeSpaceMiB": 45568,
+			"rawFreeSpaceMiB": 60757,
+			"totalSpaceMiB": 49152,
+			"rawTotalSpaceMiB": 65535,
+			"SAGrowth": {
+				"incrementMiB": 16384,
+				"LDLayout": {
+					"diskPatterns": [{
+						"diskType": 1
+					}],
+					"RAIDType": 2
+				}
+			},
+			"SDGrowth": {
+				"incrementMiB": 32768,
+				"LDLayout": {
+					"HA": 3,
+					"RAIDType": 4,
+					"diskPatterns": [{
+						"diskType": 1
+					}]
+				}
+			},
+			"state": 1,
+			"failedStates": [],
+			"degradedStates": [],
+			"additionalStates": [],
+			"dedupCapable": false
+		},
+		{
+			"id": 31,
+			"uuid": "06f865d4-6659-442f-b891-bbf54f1020f3",
+			"name": "stonith_suse_cpg",
+			"domain": "stonith1_domain",
+			"numFPVVs": 0,
+			"numTPVVs": 7,
+			"numTDVVs": 0,
+			"UsrUsage": {
+				"totalMiB": 80640,
+				"rawTotalMiB": 107519,
+				"usedMiB": 80640,
+				"rawUsedMiB": 107519
+			},
+			"SAUsage": {
+				"totalMiB": 16384,
+				"rawTotalMiB": 49152,
+				"usedMiB": 2176,
+				"rawUsedMiB": 6528
+			},
+			"SDUsage": {
+				"totalMiB": 66816,
+				"rawTotalMiB": 89088,
+				"usedMiB": 3072,
+				"rawUsedMiB": 4095
+			},
+			"privateSpaceMiB": {
+				"base": 80640,
+				"rawBase": 107519,
+				"snapshot": 3072,
+				"rawSnapshot": 4095
+			},
+			"sharedSpaceMiB": 0,
+			"rawSharedSpaceMiB": 0,
+			"freeSpaceMiB": 63744,
+			"rawFreeSpaceMiB": 84992,
+			"totalSpaceMiB": 147456,
+			"rawTotalSpaceMiB": 196607,
+			"SAGrowth": {
+				"incrementMiB": 16384,
+				"LDLayout": {
+					"HA": 3,
+					"diskPatterns": [{
+						"diskType": 1
+					}],
+					"RAIDType": 2
+				}
+			},
+			"SDGrowth": {
+				"incrementMiB": 65536,
+				"LDLayout": {
+					"RAIDType": 4,
+					"HA": 3,
+					"setSize": 8,
+					"chunkletPosPref": 1,
+					"diskPatterns": [{
+						"diskType": 1
+					}]
+				}
+			},
+			"state": 1,
+			"failedStates": [],
+			"degradedStates": [],
+			"additionalStates": [],
+			"dedupCapable": false
+		},
+		{
+			"id": 32,
+			"uuid": "48b7f6ed-4073-4e96-8a4b-18e9f4c5bacb",
+			"name": "srinathcpg",
+			"domain": "vro_roy",
+			"numFPVVs": 0,
+			"numTPVVs": 2,
+			"numTDVVs": 0,
+			"UsrUsage": {
+				"totalMiB": 3840,
+				"rawTotalMiB": 7680,
+				"usedMiB": 3840,
+				"rawUsedMiB": 7680
+			},
+			"SAUsage": {
+				"totalMiB": 16384,
+				"rawTotalMiB": 49152,
+				"usedMiB": 960,
+				"rawUsedMiB": 2880
+			},
+			"SDUsage": {
+				"totalMiB": 61696,
+				"rawTotalMiB": 123392,
+				"usedMiB": 0,
+				"rawUsedMiB": 0
+			},
+			"privateSpaceMiB": {
+				"base": 3840,
+				"rawBase": 7680,
+				"snapshot": 0,
+				"rawSnapshot": 0
+			},
+			"sharedSpaceMiB": 0,
+			"rawSharedSpaceMiB": 0,
+			"freeSpaceMiB": 61696,
+			"rawFreeSpaceMiB": 123392,
+			"totalSpaceMiB": 65536,
+			"rawTotalSpaceMiB": 131072,
+			"SAGrowth": {
+				"incrementMiB": 16384,
+				"LDLayout": {
+					"HA": 2,
+					"diskPatterns": [{
+						"diskType": 1
+					}],
+					"RAIDType": 2
+				}
+			},
+			"SDGrowth": {
+				"incrementMiB": 65536,
+				"LDLayout": {
+					"RAIDType": 2,
+					"HA": 2,
+					"setSize": 2,
+					"chunkletPosPref": 1,
+					"diskPatterns": [{
+						"diskType": 1
+					}]
+				}
+			},
+			"state": 1,
+			"failedStates": [],
+			"degradedStates": [],
+			"additionalStates": [],
+			"dedupCapable": false
+		},
+		{
+			"id": 33,
+			"uuid": "7efc3d02-3d5b-4061-8a14-38eb380f9e80",
+			"name": "01_vro_autotest_fc_r6",
+			"numFPVVs": 1,
+			"numTPVVs": 3,
+			"numTDVVs": 0,
+			"UsrUsage": {
+				"totalMiB": 468480,
+				"rawTotalMiB": 624639,
+				"usedMiB": 467456,
+				"rawUsedMiB": 623274
+			},
+			"SAUsage": {
+				"totalMiB": 16384,
+				"rawTotalMiB": 49152,
+				"usedMiB": 384,
+				"rawUsedMiB": 1152
+			},
+			"SDUsage": {
+				"totalMiB": 72192,
+				"rawTotalMiB": 96256,
+				"usedMiB": 1024,
+				"rawUsedMiB": 1365
+			},
+			"privateSpaceMiB": {
+				"base": 468480,
+				"rawBase": 624639,
+				"snapshot": 1024,
+				"rawSnapshot": 1365
+			},
+			"sharedSpaceMiB": 0,
+			"rawSharedSpaceMiB": 0,
+			"freeSpaceMiB": 71168,
+			"rawFreeSpaceMiB": 94890,
+			"totalSpaceMiB": 540672,
+			"rawTotalSpaceMiB": 720895,
+			"SAGrowth": {
+				"incrementMiB": 16384,
+				"LDLayout": {
+					"HA": 3,
+					"diskPatterns": [{
+						"diskType": 1,
+						"RPM": 10
+					}],
+					"RAIDType": 2
+				}
+			},
+			"SDGrowth": {
+				"incrementMiB": 65536,
+				"LDLayout": {
+					"RAIDType": 4,
+					"HA": 3,
+					"setSize": 8,
+					"diskPatterns": [{
+						"diskType": 1,
+						"RPM": 10
+					}]
+				}
+			},
+			"state": 1,
+			"failedStates": [],
+			"degradedStates": [],
+			"additionalStates": [],
+			"dedupCapable": false
+		},
+		{
+			"id": 34,
+			"uuid": "4453e851-436f-4e9e-a190-576290e2cdd9",
+			"name": "CPG_SSD_111",
+			"domain": "SFA",
+			"numFPVVs": 3,
+			"numTPVVs": 0,
+			"numTDVVs": 0,
+			"UsrUsage": {
+				"totalMiB": 57344,
+				"rawTotalMiB": 114688,
+				"usedMiB": 49152,
+				"rawUsedMiB": 98304
+			},
+			"SAUsage": {
+				"totalMiB": 16384,
+				"rawTotalMiB": 49152,
+				"usedMiB": 768,
+				"rawUsedMiB": 2304
+			},
+			"SDUsage": {
+				"totalMiB": 65536,
+				"rawTotalMiB": 131072,
+				"usedMiB": 1536,
+				"rawUsedMiB": 3072
+			},
+			"privateSpaceMiB": {
+				"base": 57344,
+				"rawBase": 114688,
+				"snapshot": 1536,
+				"rawSnapshot": 3072
+			},
+			"sharedSpaceMiB": 0,
+			"rawSharedSpaceMiB": 0,
+			"freeSpaceMiB": 64000,
+			"rawFreeSpaceMiB": 128000,
+			"totalSpaceMiB": 122880,
+			"rawTotalSpaceMiB": 245760,
+			"SAGrowth": {
+				"incrementMiB": 16384,
+				"LDLayout": {
+					"HA": 2,
+					"diskPatterns": [{
+						"diskType": 3
+					}],
+					"RAIDType": 2
+				}
+			},
+			"SDGrowth": {
+				"incrementMiB": 65536,
+				"LDLayout": {
+					"RAIDType": 2,
+					"HA": 2,
+					"setSize": 2,
+					"chunkletPosPref": 1,
+					"diskPatterns": [{
+						"diskType": 3
+					}]
+				}
+			},
+			"state": 1,
+			"failedStates": [],
+			"degradedStates": [],
+			"additionalStates": [],
+			"dedupCapable": true
+		},
+		{
+			"id": 35,
+			"uuid": "52d9de2c-572c-4164-959c-2b867fa2c532",
+			"name": "OV4VC_SSD",
+			"numFPVVs": 0,
+			"numTPVVs": 2,
+			"numTDVVs": 0,
+			"UsrUsage": {
+				"totalMiB": 1024,
+				"rawTotalMiB": 1365,
+				"usedMiB": 1024,
+				"rawUsedMiB": 1365
+			},
+			"SAUsage": {
+				"totalMiB": 16384,
+				"rawTotalMiB": 49152,
+				"usedMiB": 256,
+				"rawUsedMiB": 768
+			},
+			"SDUsage": {
+				"totalMiB": 41984,
+				"rawTotalMiB": 55978,
+				"usedMiB": 1536,
+				"rawUsedMiB": 2047
+			},
+			"privateSpaceMiB": {
+				"base": 1024,
+				"rawBase": 1365,
+				"snapshot": 1536,
+				"rawSnapshot": 2047
+			},
+			"sharedSpaceMiB": 0,
+			"rawSharedSpaceMiB": 0,
+			"freeSpaceMiB": 40448,
+			"rawFreeSpaceMiB": 53930,
+			"totalSpaceMiB": 43008,
+			"rawTotalSpaceMiB": 57343,
+			"SAGrowth": {
+				"incrementMiB": 16384,
+				"LDLayout": {
+					"diskPatterns": [{
+						"diskType": 3
+					}],
+					"RAIDType": 2
+				}
+			},
+			"SDGrowth": {
+				"incrementMiB": 16384,
+				"LDLayout": {
+					"setSize": 4,
+					"HA": 3,
+					"RAIDType": 3,
+					"diskPatterns": [{
+						"diskType": 3
+					}]
+				}
+			},
+			"state": 1,
+			"failedStates": [],
+			"degradedStates": [],
+			"additionalStates": [],
+			"dedupCapable": true
+		},
+		{
+			"id": 36,
+			"uuid": "0698a533-8dd0-4d32-9a96-397cd70e34c0",
+			"name": "cpg_common",
+			"numFPVVs": 0,
+			"numTPVVs": 1,
+			"numTDVVs": 0,
+			"UsrUsage": {
+				"totalMiB": 512,
+				"rawTotalMiB": 682,
+				"usedMiB": 512,
+				"rawUsedMiB": 682
+			},
+			"SAUsage": {
+				"totalMiB": 16384,
+				"rawTotalMiB": 49152,
+				"usedMiB": 128,
+				"rawUsedMiB": 384
+			},
+			"SDUsage": {
+				"totalMiB": 48640,
+				"rawTotalMiB": 64853,
+				"usedMiB": 0,
+				"rawUsedMiB": 0
+			},
+			"privateSpaceMiB": {
+				"base": 512,
+				"rawBase": 682,
+				"snapshot": 0,
+				"rawSnapshot": 0
+			},
+			"sharedSpaceMiB": 0,
+			"rawSharedSpaceMiB": 0,
+			"freeSpaceMiB": 48640,
+			"rawFreeSpaceMiB": 64853,
+			"totalSpaceMiB": 49152,
+			"rawTotalSpaceMiB": 65535,
+			"SAGrowth": {
+				"incrementMiB": 16384,
+				"LDLayout": {
+					"diskPatterns": [{
+						"diskType": 1
+					}],
+					"RAIDType": 2
+				}
+			},
+			"SDGrowth": {
+				"incrementMiB": 32768,
+				"LDLayout": {
+					"HA": 3,
+					"RAIDType": 4,
+					"diskPatterns": [{
+						"diskType": 1
+					}]
+				}
+			},
+			"state": 1,
+			"failedStates": [],
+			"degradedStates": [],
+			"additionalStates": [],
+			"dedupCapable": false
+		},
+		{
+			"id": 37,
+			"uuid": "8982306c-80f4-4cc7-a062-80000455d73a",
+			"name": "cpg_com",
+			"numFPVVs": 0,
+			"numTPVVs": 0,
+			"numTDVVs": 0,
+			"UsrUsage": {
+				"totalMiB": 0,
+				"rawTotalMiB": 0,
+				"usedMiB": 0,
+				"rawUsedMiB": 0
+			},
+			"SAUsage": {
+				"totalMiB": 0,
+				"rawTotalMiB": 0,
+				"usedMiB": 0,
+				"rawUsedMiB": 0
+			},
+			"SDUsage": {
+				"totalMiB": 0,
+				"rawTotalMiB": 0,
+				"usedMiB": 0,
+				"rawUsedMiB": 0
+			},
+			"privateSpaceMiB": {
+				"base": 0,
+				"rawBase": 0,
+				"snapshot": 0,
+				"rawSnapshot": 0
+			},
+			"sharedSpaceMiB": 0,
+			"rawSharedSpaceMiB": 0,
+			"freeSpaceMiB": 0,
+			"rawFreeSpaceMiB": 0,
+			"totalSpaceMiB": 0,
+			"rawTotalSpaceMiB": 0,
+			"SAGrowth": {
+				"incrementMiB": 16384,
+				"LDLayout": {
+					"diskPatterns": [{
+						"diskType": 1
+					}],
+					"RAIDType": 2
+				}
+			},
+			"SDGrowth": {
+				"limitMiB": 64,
+				"incrementMiB": 32768,
+				"LDLayout": {
+					"RAIDType": 1,
+					"setSize": 1,
+					"diskPatterns": [{
+						"diskType": 1
+					}]
+				}
+			},
+			"state": 1,
+			"failedStates": [],
+			"degradedStates": [],
+			"additionalStates": [],
+			"dedupCapable": false
+		},
+		{
+			"id": 38,
+			"uuid": "8b5bf085-40bb-4a14-a150-31499bd991cb",
+			"name": "vro_regression_domain_cpg",
+			"domain": "vro_regression",
+			"numFPVVs": 0,
+			"numTPVVs": 2,
+			"numTDVVs": 0,
+			"UsrUsage": {
+				"totalMiB": 1536,
+				"rawTotalMiB": 3072,
+				"usedMiB": 1536,
+				"rawUsedMiB": 3072
+			},
+			"SAUsage": {
+				"totalMiB": 16384,
+				"rawTotalMiB": 49152,
+				"usedMiB": 768,
+				"rawUsedMiB": 2304
+			},
+			"SDUsage": {
+				"totalMiB": 64000,
+				"rawTotalMiB": 128000,
+				"usedMiB": 1536,
+				"rawUsedMiB": 3072
+			},
+			"privateSpaceMiB": {
+				"base": 1536,
+				"rawBase": 3072,
+				"snapshot": 1536,
+				"rawSnapshot": 3072
+			},
+			"sharedSpaceMiB": 0,
+			"rawSharedSpaceMiB": 0,
+			"freeSpaceMiB": 62464,
+			"rawFreeSpaceMiB": 124928,
+			"totalSpaceMiB": 65536,
+			"rawTotalSpaceMiB": 131072,
+			"SAGrowth": {
+				"incrementMiB": 16384,
+				"LDLayout": {
+					"HA": 3,
+					"diskPatterns": [{
+						"diskType": 1,
+						"RPM": 10
+					}],
+					"RAIDType": 2
+				}
+			},
+			"SDGrowth": {
+				"incrementMiB": 65536,
+				"LDLayout": {
+					"RAIDType": 2,
+					"HA": 3,
+					"setSize": 2,
+					"diskPatterns": [{
+						"diskType": 1,
+						"RPM": 10
+					}]
+				}
+			},
+			"state": 1,
+			"failedStates": [],
+			"degradedStates": [],
+			"additionalStates": [],
+			"dedupCapable": false
+		},
+		{
+			"id": 39,
+			"uuid": "00fc9796-3dab-424f-87a2-26a1f5dc3a01",
+			"name": "DEDUP_111",
+			"domain": "SFA",
+			"numFPVVs": 0,
+			"numTPVVs": 3,
+			"numTDVVs": 0,
+			"UsrUsage": {
+				"totalMiB": 13824,
+				"rawTotalMiB": 27648,
+				"usedMiB": 13824,
+				"rawUsedMiB": 27648
+			},
+			"SAUsage": {
+				"totalMiB": 16384,
+				"rawTotalMiB": 49152,
+				"usedMiB": 448,
+				"rawUsedMiB": 1344
+			},
+			"SDUsage": {
+				"totalMiB": 35328,
+				"rawTotalMiB": 70656,
+				"usedMiB": 2304,
+				"rawUsedMiB": 4608
+			},
+			"privateSpaceMiB": {
+				"base": 13824,
+				"rawBase": 27648,
+				"snapshot": 2304,
+				"rawSnapshot": 4608
+			},
+			"sharedSpaceMiB": 0,
+			"rawSharedSpaceMiB": 0,
+			"freeSpaceMiB": 33024,
+			"rawFreeSpaceMiB": 66048,
+			"totalSpaceMiB": 49152,
+			"rawTotalSpaceMiB": 98304,
+			"SAGrowth": {
+				"incrementMiB": 16384,
+				"LDLayout": {
+					"HA": 2,
+					"diskPatterns": [{
+						"diskType": 3
+					}],
+					"RAIDType": 2
+				}
+			},
+			"SDGrowth": {
+				"incrementMiB": 16384,
+				"LDLayout": {
+					"RAIDType": 2,
+					"HA": 2,
+					"setSize": 2,
+					"chunkletPosPref": 2,
+					"diskPatterns": [{
+						"diskType": 3
+					}]
+				}
+			},
+			"state": 1,
+			"failedStates": [],
+			"degradedStates": [],
+			"additionalStates": [],
+			"dedupCapable": true
+		},
+		{
+			"id": 40,
+			"uuid": "1e521604-bd03-4095-9ff6-af1d25745deb",
+			"name": "cpg_sc",
+			"numFPVVs": 0,
+			"numTPVVs": 0,
+			"numTDVVs": 0,
+			"UsrUsage": {
+				"totalMiB": 0,
+				"rawTotalMiB": 0,
+				"usedMiB": 0,
+				"rawUsedMiB": 0
+			},
+			"SAUsage": {
+				"totalMiB": 0,
+				"rawTotalMiB": 0,
+				"usedMiB": 0,
+				"rawUsedMiB": 0
+			},
+			"SDUsage": {
+				"totalMiB": 0,
+				"rawTotalMiB": 0,
+				"usedMiB": 0,
+				"rawUsedMiB": 0
+			},
+			"privateSpaceMiB": {
+				"base": 0,
+				"rawBase": 0,
+				"snapshot": 0,
+				"rawSnapshot": 0
+			},
+			"sharedSpaceMiB": 0,
+			"rawSharedSpaceMiB": 0,
+			"freeSpaceMiB": 0,
+			"rawFreeSpaceMiB": 0,
+			"totalSpaceMiB": 0,
+			"rawTotalSpaceMiB": 0,
+			"SAGrowth": {
+				"incrementMiB": 16384,
+				"LDLayout": {
+					"diskPatterns": [{
+						"diskType": 3
+					}],
+					"RAIDType": 2
+				}
+			},
+			"SDGrowth": {
+				"incrementMiB": 32768,
+				"LDLayout": {
+					"RAIDType": 1,
+					"setSize": 1,
+					"diskPatterns": [{
+						"diskType": 3
+					}]
+				}
+			},
+			"state": 1,
+			"failedStates": [],
+			"degradedStates": [],
+			"additionalStates": [],
+			"dedupCapable": true
+		},
+		{
+			"id": 41,
+			"uuid": "cc974bf7-c019-478f-bcf0-ae2473546436",
+			"name": "roy_test2",
+			"numFPVVs": 0,
+			"numTPVVs": 1,
+			"numTDVVs": 0,
+			"UsrUsage": {
+				"totalMiB": 512,
+				"rawTotalMiB": 682,
+				"usedMiB": 512,
+				"rawUsedMiB": 682
+			},
+			"SAUsage": {
+				"totalMiB": 16384,
+				"rawTotalMiB": 49152,
+				"usedMiB": 128,
+				"rawUsedMiB": 384
+			},
+			"SDUsage": {
+				"totalMiB": 48640,
+				"rawTotalMiB": 64853,
+				"usedMiB": 0,
+				"rawUsedMiB": 0
+			},
+			"privateSpaceMiB": {
+				"base": 512,
+				"rawBase": 682,
+				"snapshot": 0,
+				"rawSnapshot": 0
+			},
+			"sharedSpaceMiB": 0,
+			"rawSharedSpaceMiB": 0,
+			"freeSpaceMiB": 48640,
+			"rawFreeSpaceMiB": 64853,
+			"totalSpaceMiB": 49152,
+			"rawTotalSpaceMiB": 65535,
+			"SAGrowth": {
+				"incrementMiB": 16384,
+				"LDLayout": {
+					"diskPatterns": [{
+						"diskType": 1
+					}],
+					"RAIDType": 2
+				}
+			},
+			"SDGrowth": {
+				"incrementMiB": 32768,
+				"LDLayout": {
+					"RAIDType": 4,
+					"setSize": 8,
+					"HA": 3,
+					"diskPatterns": [{
+						"diskType": 1
+					}]
+				}
+			},
+			"state": 1,
+			"failedStates": [],
+			"degradedStates": [],
+			"additionalStates": [],
+			"dedupCapable": false
+		},
+		{
+			"id": 42,
+			"uuid": "37acd13a-b24f-49ce-b059-194460868d20",
+			"name": "cpg_test_06",
+			"numFPVVs": 0,
+			"numTPVVs": 1,
+			"numTDVVs": 0,
+			"UsrUsage": {
+				"totalMiB": 512,
+				"rawTotalMiB": 682,
+				"usedMiB": 512,
+				"rawUsedMiB": 682
+			},
+			"SAUsage": {
+				"totalMiB": 16384,
+				"rawTotalMiB": 49152,
+				"usedMiB": 128,
+				"rawUsedMiB": 384
+			},
+			"SDUsage": {
+				"totalMiB": 48640,
+				"rawTotalMiB": 64853,
+				"usedMiB": 0,
+				"rawUsedMiB": 0
+			},
+			"privateSpaceMiB": {
+				"base": 512,
+				"rawBase": 682,
+				"snapshot": 0,
+				"rawSnapshot": 0
+			},
+			"sharedSpaceMiB": 0,
+			"rawSharedSpaceMiB": 0,
+			"freeSpaceMiB": 48640,
+			"rawFreeSpaceMiB": 64853,
+			"totalSpaceMiB": 49152,
+			"rawTotalSpaceMiB": 65535,
+			"SAGrowth": {
+				"incrementMiB": 16384,
+				"LDLayout": {
+					"diskPatterns": [{
+						"diskType": 1
+					}],
+					"RAIDType": 2
+				}
+			},
+			"SDGrowth": {
+				"incrementMiB": 32768,
+				"LDLayout": {
+					"RAIDType": 4,
+					"setSize": 8,
+					"HA": 3,
+					"diskPatterns": [{
+						"diskType": 1
+					}]
+				}
+			},
+			"state": 1,
+			"failedStates": [],
+			"degradedStates": [],
+			"additionalStates": [],
+			"dedupCapable": false
+		},
+		{
+			"id": 43,
+			"uuid": "f5613398-9e6d-422c-ad66-0b0aa7f23a9e",
+			"name": "cpg_name4",
+			"numFPVVs": 0,
+			"numTPVVs": 0,
+			"numTDVVs": 0,
+			"UsrUsage": {
+				"totalMiB": 0,
+				"rawTotalMiB": 0,
+				"usedMiB": 0,
+				"rawUsedMiB": 0
+			},
+			"SAUsage": {
+				"totalMiB": 0,
+				"rawTotalMiB": 0,
+				"usedMiB": 0,
+				"rawUsedMiB": 0
+			},
+			"SDUsage": {
+				"totalMiB": 0,
+				"rawTotalMiB": 0,
+				"usedMiB": 0,
+				"rawUsedMiB": 0
+			},
+			"privateSpaceMiB": {
+				"base": 0,
+				"rawBase": 0,
+				"snapshot": 0,
+				"rawSnapshot": 0
+			},
+			"sharedSpaceMiB": 0,
+			"rawSharedSpaceMiB": 0,
+			"freeSpaceMiB": 0,
+			"rawFreeSpaceMiB": 0,
+			"totalSpaceMiB": 0,
+			"rawTotalSpaceMiB": 0,
+			"SAGrowth": {
+				"incrementMiB": 16384,
+				"LDLayout": {
+					"diskPatterns": [{
+						"diskType": 3
+					}],
+					"RAIDType": 2
+				}
+			},
+			"SDGrowth": {
+				"limitMiB": 1048576,
+				"incrementMiB": 32768,
+				"LDLayout": {
+					"RAIDType": 1,
+					"setSize": 1,
+					"diskPatterns": [{
+						"diskType": 3
+					}]
+				}
+			},
+			"state": 1,
+			"failedStates": [],
+			"degradedStates": [],
+			"additionalStates": [],
+			"dedupCapable": true
+		},
+		{
+			"id": 44,
+			"uuid": "a0873cdd-e018-4021-86ba-6424e9a7c9a1",
+			"name": "cpg_new1",
+			"numFPVVs": 0,
+			"numTPVVs": 0,
+			"numTDVVs": 0,
+			"UsrUsage": {
+				"totalMiB": 0,
+				"rawTotalMiB": 0,
+				"usedMiB": 0,
+				"rawUsedMiB": 0
+			},
+			"SAUsage": {
+				"totalMiB": 0,
+				"rawTotalMiB": 0,
+				"usedMiB": 0,
+				"rawUsedMiB": 0
+			},
+			"SDUsage": {
+				"totalMiB": 0,
+				"rawTotalMiB": 0,
+				"usedMiB": 0,
+				"rawUsedMiB": 0
+			},
+			"privateSpaceMiB": {
+				"base": 0,
+				"rawBase": 0,
+				"snapshot": 0,
+				"rawSnapshot": 0
+			},
+			"sharedSpaceMiB": 0,
+			"rawSharedSpaceMiB": 0,
+			"freeSpaceMiB": 0,
+			"rawFreeSpaceMiB": 0,
+			"totalSpaceMiB": 0,
+			"rawTotalSpaceMiB": 0,
+			"SAGrowth": {
+				"incrementMiB": 16384,
+				"LDLayout": {
+					"diskPatterns": [{
+						"diskType": 3
+					}],
+					"RAIDType": 2
+				}
+			},
+			"SDGrowth": {
+				"limitMiB": 1048576,
+				"incrementMiB": 32768,
+				"LDLayout": {
+					"RAIDType": 1,
+					"setSize": 1,
+					"diskPatterns": [{
+						"diskType": 3
+					}]
+				}
+			},
+			"state": 1,
+			"failedStates": [],
+			"degradedStates": [],
+			"additionalStates": [],
+			"dedupCapable": true
+		},
+		{
+			"id": 45,
+			"uuid": "447821a1-01b5-47fe-9f9d-678f36fd67ec",
+			"name": "cpg_common3",
+			"numFPVVs": 0,
+			"numTPVVs": 0,
+			"numTDVVs": 0,
+			"UsrUsage": {
+				"totalMiB": 0,
+				"rawTotalMiB": 0,
+				"usedMiB": 0,
+				"rawUsedMiB": 0
+			},
+			"SAUsage": {
+				"totalMiB": 0,
+				"rawTotalMiB": 0,
+				"usedMiB": 0,
+				"rawUsedMiB": 0
+			},
+			"SDUsage": {
+				"totalMiB": 0,
+				"rawTotalMiB": 0,
+				"usedMiB": 0,
+				"rawUsedMiB": 0
+			},
+			"privateSpaceMiB": {
+				"base": 0,
+				"rawBase": 0,
+				"snapshot": 0,
+				"rawSnapshot": 0
+			},
+			"sharedSpaceMiB": 0,
+			"rawSharedSpaceMiB": 0,
+			"freeSpaceMiB": 0,
+			"rawFreeSpaceMiB": 0,
+			"totalSpaceMiB": 0,
+			"rawTotalSpaceMiB": 0,
+			"SAGrowth": {
+				"incrementMiB": 16384,
+				"LDLayout": {
+					"diskPatterns": [{
+						"diskType": 3
+					}],
+					"RAIDType": 2
+				}
+			},
+			"SDGrowth": {
+				"warningMiB": 1048576,
+				"limitMiB": 1048576,
+				"incrementMiB": 32768,
+				"LDLayout": {
+					"RAIDType": 1,
+					"setSize": 1,
+					"diskPatterns": [{
+						"diskType": 3
+					}]
+				}
+			},
+			"state": 1,
+			"failedStates": [],
+			"degradedStates": [],
+			"additionalStates": [],
+			"dedupCapable": true
+		},
+		{
+			"id": 46,
+			"uuid": "e17734c5-ecbb-48d6-a29a-6c7b022fce71",
+			"name": "srinathcpgcopy",
+			"domain": "vro_roy",
+			"numFPVVs": 0,
+			"numTPVVs": 2,
+			"numTDVVs": 0,
+			"UsrUsage": {
+				"totalMiB": 0,
+				"rawTotalMiB": 0,
+				"usedMiB": 0,
+				"rawUsedMiB": 0
+			},
+			"SAUsage": {
+				"totalMiB": 16384,
+				"rawTotalMiB": 49152,
+				"usedMiB": 0,
+				"rawUsedMiB": 0
+			},
+			"SDUsage": {
+				"totalMiB": 65536,
+				"rawTotalMiB": 131072,
+				"usedMiB": 2304,
+				"rawUsedMiB": 4608
+			},
+			"privateSpaceMiB": {
+				"base": 0,
+				"rawBase": 0,
+				"snapshot": 2304,
+				"rawSnapshot": 4608
+			},
+			"sharedSpaceMiB": 0,
+			"rawSharedSpaceMiB": 0,
+			"freeSpaceMiB": 63232,
+			"rawFreeSpaceMiB": 126464,
+			"totalSpaceMiB": 65536,
+			"rawTotalSpaceMiB": 131072,
+			"SAGrowth": {
+				"incrementMiB": 16384,
+				"LDLayout": {
+					"HA": 2,
+					"diskPatterns": [{
+						"diskType": 1
+					}],
+					"RAIDType": 2
+				}
+			},
+			"SDGrowth": {
+				"incrementMiB": 65536,
+				"LDLayout": {
+					"RAIDType": 2,
+					"HA": 2,
+					"setSize": 2,
+					"chunkletPosPref": 1,
+					"diskPatterns": [{
+						"diskType": 1
+					}]
+				}
+			},
+			"state": 1,
+			"failedStates": [],
+			"degradedStates": [],
+			"additionalStates": [],
+			"dedupCapable": false
+		},
+		{
+			"id": 47,
+			"uuid": "6d0ac38d-5ea2-4f09-9649-08791988a1ea",
+			"name": "a",
+			"numFPVVs": 0,
+			"numTPVVs": 0,
+			"numTDVVs": 0,
+			"UsrUsage": {
+				"totalMiB": 0,
+				"rawTotalMiB": 0,
+				"usedMiB": 0,
+				"rawUsedMiB": 0
+			},
+			"SAUsage": {
+				"totalMiB": 0,
+				"rawTotalMiB": 0,
+				"usedMiB": 0,
+				"rawUsedMiB": 0
+			},
+			"SDUsage": {
+				"totalMiB": 0,
+				"rawTotalMiB": 0,
+				"usedMiB": 0,
+				"rawUsedMiB": 0
+			},
+			"privateSpaceMiB": {
+				"base": 0,
+				"rawBase": 0,
+				"snapshot": 0,
+				"rawSnapshot": 0
+			},
+			"sharedSpaceMiB": 0,
+			"rawSharedSpaceMiB": 0,
+			"freeSpaceMiB": 0,
+			"rawFreeSpaceMiB": 0,
+			"totalSpaceMiB": 0,
+			"rawTotalSpaceMiB": 0,
+			"SAGrowth": {
+				"incrementMiB": 16384,
+				"LDLayout": {
+					"HA": 2,
+					"diskPatterns": [{
+						"diskType": 1
+					}],
+					"RAIDType": 2
+				}
+			},
+			"SDGrowth": {
+				"warningMiB": 419430,
+				"limitMiB": 524288,
+				"incrementMiB": 262144,
+				"LDLayout": {
+					"RAIDType": 2,
+					"setSize": 2,
+					"HA": 2,
+					"diskPatterns": [{
+						"diskType": 1
+					}]
+				}
+			},
+			"state": 1,
+			"failedStates": [],
+			"degradedStates": [],
+			"additionalStates": [],
+			"dedupCapable": false
+		},
+		{
+			"id": 48,
+			"uuid": "ab5094b3-6ece-4c25-80da-8adac1a6088b",
+			"name": "vro_cpg_test",
+			"domain": "vro_roy",
+			"numFPVVs": 0,
+			"numTPVVs": 1,
+			"numTDVVs": 0,
+			"UsrUsage": {
+				"totalMiB": 512,
+				"rawTotalMiB": 682,
+				"usedMiB": 512,
+				"rawUsedMiB": 682
+			},
+			"SAUsage": {
+				"totalMiB": 16384,
+				"rawTotalMiB": 49152,
+				"usedMiB": 128,
+				"rawUsedMiB": 384
+			},
+			"SDUsage": {
+				"totalMiB": 97792,
+				"rawTotalMiB": 130389,
+				"usedMiB": 0,
+				"rawUsedMiB": 0
+			},
+			"privateSpaceMiB": {
+				"base": 512,
+				"rawBase": 682,
+				"snapshot": 0,
+				"rawSnapshot": 0
+			},
+			"sharedSpaceMiB": 0,
+			"rawSharedSpaceMiB": 0,
+			"freeSpaceMiB": 97792,
+			"rawFreeSpaceMiB": 130389,
+			"totalSpaceMiB": 98304,
+			"rawTotalSpaceMiB": 131071,
+			"SAGrowth": {
+				"incrementMiB": 16384,
+				"LDLayout": {
+					"HA": 3,
+					"diskPatterns": [{
+						"diskType": 1,
+						"RPM": 10
+					}],
+					"RAIDType": 2
+				}
+			},
+			"SDGrowth": {
+				"incrementMiB": 92160,
+				"LDLayout": {
+					"RAIDType": 4,
+					"HA": 3,
+					"setSize": 8,
+					"diskPatterns": [{
+						"diskType": 1,
+						"RPM": 10
+					}]
+				}
+			},
+			"state": 1,
+			"failedStates": [],
+			"degradedStates": [],
+			"additionalStates": [],
+			"dedupCapable": false
+		},
+		{
+			"id": 49,
+			"uuid": "a4f04a3e-1034-495f-8a1b-a90b1e76431f",
+			"name": "cpg_new_test",
+			"numFPVVs": 0,
+			"numTPVVs": 1,
+			"numTDVVs": 0,
+			"UsrUsage": {
+				"totalMiB": 768,
+				"rawTotalMiB": 1536,
+				"usedMiB": 768,
+				"rawUsedMiB": 1536
+			},
+			"SAUsage": {
+				"totalMiB": 16384,
+				"rawTotalMiB": 49152,
+				"usedMiB": 192,
+				"rawUsedMiB": 576
+			},
+			"SDUsage": {
+				"totalMiB": 32000,
+				"rawTotalMiB": 64000,
+				"usedMiB": 0,
+				"rawUsedMiB": 0
+			},
+			"privateSpaceMiB": {
+				"base": 768,
+				"rawBase": 1536,
+				"snapshot": 0,
+				"rawSnapshot": 0
+			},
+			"sharedSpaceMiB": 0,
+			"rawSharedSpaceMiB": 0,
+			"freeSpaceMiB": 32000,
+			"rawFreeSpaceMiB": 64000,
+			"totalSpaceMiB": 32768,
+			"rawTotalSpaceMiB": 65536,
+			"SAGrowth": {
+				"incrementMiB": 16384,
+				"LDLayout": {
+					"diskPatterns": [{
+						"diskType": 1
+					}],
+					"RAIDType": 2
+				}
+			},
+			"SDGrowth": {
+				"incrementMiB": 32768,
+				"LDLayout": {
+					"RAIDType": 2,
+					"setSize": 2,
+					"HA": 3,
+					"diskPatterns": [{
+						"diskType": 1
+					}]
+				}
+			},
+			"state": 1,
+			"failedStates": [],
+			"degradedStates": [],
+			"additionalStates": [],
+			"dedupCapable": false
+		},
+		{
+			"id": 50,
+			"uuid": "3d2d1bc1-398c-4e95-89d2-313a7992ec33",
+			"name": "gpcpg",
+			"numFPVVs": 0,
+			"numTPVVs": 0,
+			"numTDVVs": 0,
+			"UsrUsage": {
+				"totalMiB": 0,
+				"rawTotalMiB": 0,
+				"usedMiB": 0,
+				"rawUsedMiB": 0
+			},
+			"SAUsage": {
+				"totalMiB": 0,
+				"rawTotalMiB": 0,
+				"usedMiB": 0,
+				"rawUsedMiB": 0
+			},
+			"SDUsage": {
+				"totalMiB": 0,
+				"rawTotalMiB": 0,
+				"usedMiB": 0,
+				"rawUsedMiB": 0
+			},
+			"privateSpaceMiB": {
+				"base": 0,
+				"rawBase": 0,
+				"snapshot": 0,
+				"rawSnapshot": 0
+			},
+			"sharedSpaceMiB": 0,
+			"rawSharedSpaceMiB": 0,
+			"freeSpaceMiB": 0,
+			"rawFreeSpaceMiB": 0,
+			"totalSpaceMiB": 0,
+			"rawTotalSpaceMiB": 0,
+			"SAGrowth": {
+				"incrementMiB": 16384,
+				"LDLayout": {
+					"diskPatterns": [{
+						"diskType": 1
+					}],
+					"RAIDType": 2
+				}
+			},
+			"SDGrowth": {
+				"incrementMiB": 65536,
+				"LDLayout": {
+					"RAIDType": 2,
+					"setSize": 2,
+					"HA": 3,
+					"diskPatterns": [{
+						"diskType": 1
+					}]
+				}
+			},
+			"state": 1,
+			"failedStates": [],
+			"degradedStates": [],
+			"additionalStates": [],
+			"dedupCapable": false
+		},
+		{
+			"id": 51,
+			"uuid": "790a99fc-a703-4e0b-88e0-88a275ccbd82",
+			"name": "cpg_cog",
+			"numFPVVs": 0,
+			"numTPVVs": 1,
+			"numTDVVs": 0,
+			"UsrUsage": {
+				"totalMiB": 512,
+				"rawTotalMiB": 682,
+				"usedMiB": 512,
+				"rawUsedMiB": 682
+			},
+			"SAUsage": {
+				"totalMiB": 16384,
+				"rawTotalMiB": 49152,
+				"usedMiB": 128,
+				"rawUsedMiB": 384
+			},
+			"SDUsage": {
+				"totalMiB": 48640,
+				"rawTotalMiB": 64853,
+				"usedMiB": 0,
+				"rawUsedMiB": 0
+			},
+			"privateSpaceMiB": {
+				"base": 512,
+				"rawBase": 682,
+				"snapshot": 0,
+				"rawSnapshot": 0
+			},
+			"sharedSpaceMiB": 0,
+			"rawSharedSpaceMiB": 0,
+			"freeSpaceMiB": 48640,
+			"rawFreeSpaceMiB": 64853,
+			"totalSpaceMiB": 49152,
+			"rawTotalSpaceMiB": 65535,
+			"SAGrowth": {
+				"incrementMiB": 16384,
+				"LDLayout": {
+					"diskPatterns": [{
+						"diskType": 1
+					}],
+					"RAIDType": 2
+				}
+			},
+			"SDGrowth": {
+				"incrementMiB": 32768,
+				"LDLayout": {
+					"RAIDType": 4,
+					"setSize": 8,
+					"HA": 3,
+					"diskPatterns": [{
+						"diskType": 1
+					}]
+				}
+			},
+			"state": 1,
+			"failedStates": [],
+			"degradedStates": [],
+			"additionalStates": [],
+			"dedupCapable": false
+		},
+		{
+			"id": 52,
+			"uuid": "89337fcf-b815-4a74-b9a9-a02b1c7e3f80",
+			"name": "nomani_f1",
+			"numFPVVs": 0,
+			"numTPVVs": 0,
+			"numTDVVs": 0,
+			"UsrUsage": {
+				"totalMiB": 0,
+				"rawTotalMiB": 0,
+				"usedMiB": 0,
+				"rawUsedMiB": 0
+			},
+			"SAUsage": {
+				"totalMiB": 0,
+				"rawTotalMiB": 0,
+				"usedMiB": 0,
+				"rawUsedMiB": 0
+			},
+			"SDUsage": {
+				"totalMiB": 0,
+				"rawTotalMiB": 0,
+				"usedMiB": 0,
+				"rawUsedMiB": 0
+			},
+			"privateSpaceMiB": {
+				"base": 0,
+				"rawBase": 0,
+				"snapshot": 0,
+				"rawSnapshot": 0
+			},
+			"sharedSpaceMiB": 0,
+			"rawSharedSpaceMiB": 0,
+			"freeSpaceMiB": 0,
+			"rawFreeSpaceMiB": 0,
+			"totalSpaceMiB": 0,
+			"rawTotalSpaceMiB": 0,
+			"SAGrowth": {
+				"incrementMiB": 16384,
+				"LDLayout": {
+					"diskPatterns": [{
+						"diskType": 1,
+						"RPM": 10
+					}],
+					"RAIDType": 2
+				}
+			},
+			"SDGrowth": {
+				"incrementMiB": 65536,
+				"LDLayout": {
+					"RAIDType": 1,
+					"setSize": 1,
+					"diskPatterns": [{
+						"diskType": 1,
+						"RPM": 10
+					}]
+				}
+			},
+			"state": 1,
+			"failedStates": [],
+			"degradedStates": [],
+			"additionalStates": [],
+			"dedupCapable": false
+		},
+		{
+			"id": 53,
+			"uuid": "b8518165-c5eb-4ba5-bc85-7f9c8059e8d3",
+			"name": "cpg_f",
+			"numFPVVs": 1,
+			"numTPVVs": 0,
+			"numTDVVs": 0,
+			"UsrUsage": {
+				"totalMiB": 1024,
+				"rawTotalMiB": 1024,
+				"usedMiB": 256,
+				"rawUsedMiB": 256
+			},
+			"SAUsage": {
+				"totalMiB": 0,
+				"rawTotalMiB": 0,
+				"usedMiB": 0,
+				"rawUsedMiB": 0
+			},
+			"SDUsage": {
+				"totalMiB": 0,
+				"rawTotalMiB": 0,
+				"usedMiB": 0,
+				"rawUsedMiB": 0
+			},
+			"privateSpaceMiB": {
+				"base": 1024,
+				"rawBase": 1024,
+				"snapshot": 0,
+				"rawSnapshot": 0
+			},
+			"sharedSpaceMiB": 0,
+			"rawSharedSpaceMiB": 0,
+			"freeSpaceMiB": 0,
+			"rawFreeSpaceMiB": 0,
+			"totalSpaceMiB": 1024,
+			"rawTotalSpaceMiB": 1024,
+			"SAGrowth": {
+				"incrementMiB": 16384,
+				"LDLayout": {
+					"diskPatterns": [{
+						"diskType": 1
+					}],
+					"RAIDType": 2
+				}
+			},
+			"SDGrowth": {
+				"incrementMiB": 65536,
+				"LDLayout": {
+					"RAIDType": 1,
+					"diskPatterns": [{
+						"diskType": 1
+					}]
+				}
+			},
+			"state": 1,
+			"failedStates": [],
+			"degradedStates": [],
+			"additionalStates": [],
+			"dedupCapable": false
+		},
+		{
+			"id": 54,
+			"uuid": "7fa71eea-d836-445e-9494-c2458b90bceb",
+			"name": "cpg_snap_test",
+			"numFPVVs": 0,
+			"numTPVVs": 1,
+			"numTDVVs": 0,
+			"UsrUsage": {
+				"totalMiB": 512,
+				"rawTotalMiB": 682,
+				"usedMiB": 512,
+				"rawUsedMiB": 682
+			},
+			"SAUsage": {
+				"totalMiB": 16384,
+				"rawTotalMiB": 49152,
+				"usedMiB": 256,
+				"rawUsedMiB": 768
+			},
+			"SDUsage": {
+				"totalMiB": 48640,
+				"rawTotalMiB": 64853,
+				"usedMiB": 512,
+				"rawUsedMiB": 682
+			},
+			"privateSpaceMiB": {
+				"base": 512,
+				"rawBase": 682,
+				"snapshot": 512,
+				"rawSnapshot": 682
+			},
+			"sharedSpaceMiB": 0,
+			"rawSharedSpaceMiB": 0,
+			"freeSpaceMiB": 48128,
+			"rawFreeSpaceMiB": 64170,
+			"totalSpaceMiB": 49152,
+			"rawTotalSpaceMiB": 65535,
+			"SAGrowth": {
+				"incrementMiB": 16384,
+				"LDLayout": {
+					"diskPatterns": [{
+						"diskType": 1
+					}],
+					"RAIDType": 2
+				}
+			},
+			"SDGrowth": {
+				"incrementMiB": 32768,
+				"LDLayout": {
+					"RAIDType": 4,
+					"setSize": 8,
+					"HA": 3,
+					"diskPatterns": [{
+						"diskType": 1
+					}]
+				}
+			},
+			"state": 1,
+			"failedStates": [],
+			"degradedStates": [],
+			"additionalStates": [],
+			"dedupCapable": false
+		}
+	]
+}

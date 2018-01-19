@@ -1,0 +1,14 @@
+{
+  "total": 2,
+  "members": [{
+    "id": 461,
+    "uuid": "684f04fd-e958-4bb2-bc81-d8db6c8e83b6",
+    "name": "sample-host-set2",
+    "setmembers": ["sample-host"]
+  }, {
+    "id": 464,
+    "uuid": "f7bf6779-a901-4dc4-a63a-8eecac343042",
+    "name": "sample-host-set1",
+    "setmembers": ["sample-host"]
+  }]
+}
