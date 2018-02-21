@@ -1,3 +1,5 @@
+[![Gem Version](https://badge.fury.io/rb/hpe3par_sdk.png)](https://badge.fury.io/rb/hpe3par_sdk)   [![Build Status](https://travis-ci.org/HewlettPackard/hpe3par_ruby_sdk.svg?branch=master)](https://travis-ci.org/HewlettPackard/hpe3par_ruby_sdk)
+
 HPE 3PAR Software Development Kit for Ruby
 ====================
 This is a Client library that can talk to the HPE 3PAR Storage array.  The 3PAR
