@@ -90,8 +90,19 @@ module Hpe3parSdk
     end
 
     def delete_volume(name)
+      begin
+        remove_volume_metadata(name, 'type')
+      rescue; end
+
       response = @http.delete("/volumes/#{name}")
       response[1]
+    end
+
+    def remove_volume_metadata(name, key)
+      response = @http.delete(
+            "/volumes/#{name}/objectKeyValues/#{key}"
+            )
+      body
     end
 
     def modify_volume(name, volume_mods)
