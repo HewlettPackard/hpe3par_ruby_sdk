@@ -14,7 +14,7 @@
 
 This is a Client library that can talk to the HPE 3PAR Storage array. The 3PAR storage array has a REST web service interface and a command line interface. This client library implements a simple interface for talking with either interface, as needed. The HTTParty library is used to communicate with the REST interface. The net/ssh library is used to communicate with the command line interface over an SSH connection.
 
-#Capabilities
+# Capabilities
 
     create_volume
     delete_volume
