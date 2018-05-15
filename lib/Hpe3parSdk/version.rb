@@ -10,5 +10,5 @@
 # specific language governing permissions and limitations under the License.
 
 module Hpe3parSdk
-  VERSION = '1.0.1'.freeze
+  VERSION = '1.1.0'.freeze
 end
