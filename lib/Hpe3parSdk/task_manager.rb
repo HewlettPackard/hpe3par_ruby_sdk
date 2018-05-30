@@ -85,7 +85,7 @@ module Hpe3parSdk
       end #loop end
 
       #Return the Task Result
-      if task != nil && task.status != nil && task.status == 'DONE'
+      if task != nil && task.status != nil && task.status == Hpe3parSdk::TaskStatus::DONE
         return true
 
       else
