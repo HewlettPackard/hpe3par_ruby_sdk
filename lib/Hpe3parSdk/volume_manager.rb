@@ -25,6 +25,7 @@ module Hpe3parSdk
       @task = TaskManager.new(http)
       @volume_set = VolumeSetManager.new(http)
       @app_type = app_type
+      @app_key = 'hpe_ecosystem_product'
     end
 
     def get_volumes(volume_type)
@@ -60,7 +61,7 @@ module Hpe3parSdk
                #Adding information related to telemetry
                'objectKeyValues' => [ 
                  { 
-                   'key' => 'type' , 
+                   'key' => @app_key , 
                    'value' => @app_type 
                  } 
                ] 
@@ -107,10 +108,12 @@ module Hpe3parSdk
 
     def modify_volume(name, volume_mods)
       @http.put("/volumes/#{name}", body: volume_mods)
-      if volume_mods.key? ('newName') && !volume_mods['newName'].nil?
-        name = volume_mods['newName']
+      if volume_mods.key? (:newName)
+		if !volume_mods[:newName].nil?
+		  name = volume_mods[:newName]
+		end
       end
-      setVolumeMetaData(name, 'type', @app_type)     
+      setVolumeMetaData(name, @app_key, @app_type)     
     end
 
     def grow_volume(name, amount)
