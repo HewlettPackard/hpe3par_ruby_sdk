@@ -26,7 +26,7 @@ require_relative 'wsapi_version'
 
 module Hpe3parSdk
   class Client
-    def initialize(api_url,debug:false, secure: false, timeout: nil, suppress_ssl_warnings: false, app_type: 'ruby-3parclient', log_file_path: nil)
+    def initialize(api_url,debug:false, secure: false, timeout: nil, suppress_ssl_warnings: false, app_type: 'ruby_SDK_3par', log_file_path: nil)
       unless api_url.is_a?(String)
         raise Hpe3parSdk::HPE3PARException.new(nil,
                                                   "'api_url' parameter is mandatory and should be of type String")
