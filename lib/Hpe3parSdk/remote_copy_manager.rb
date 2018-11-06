@@ -202,7 +202,7 @@ module Hpe3parSdk
       rcopylink_exits = false
       link_name = targetName + '_' + local_port.replace(':', '_')
       begin
-        response = self.get_remote_copy_link(link_name)
+        response = get_remote_copy_link(link_name)
         if response and response['address'] == target_system_peer_port
           rcopylink_exits = true
         end
@@ -261,4 +261,33 @@ module Hpe3parSdk
       rescue Hpe3parSdk::HPE3PARException => ex
       end
       return false
+    end
+
+    def check_response(resp)
+      for r in resp
+        if 'error' in r.downcase or 'invalid' in r.downcase or 'the schedule format' in r.downcase
+          return r.strip
+        end
+      end
+    end
+
+    def create_schedule(schedule_name, task, taskfreq='@hourly')
+      cmd = ['createsched']
+      cmd << "\""+task+"\""
+      if '@' not in taskfreq
+        cmd << "\""+taskfreq+"\""
+      else
+        cmd << taskfreq
+      end
+      cmd << schedule_name
+      begin
+        command = cmd.join(" ")
+        response = @ssh.run(command)
+        err_resp = check_response(response)
+        if err_resp
+          raise Hpe3parSdk::HPE3PARException(message: err_resp)
+        end
+      rescue Hpe3parSdk::HPE3PARException => ex
+        raise Hpe3parSdk::HPE3PARException(ex.message)
+      end
     end
