@@ -58,46 +58,57 @@ module Hpe3parSdk
                  'volumeName' => volumeName,
                  'targets' => targets			   
                }
-  
         info = Util.merge_hash(info, optional) if optional
-
         response, body = @http.put('/remotecopygroups/#{name}/volumes', body: info)
       else
         info = { 'volumeName' => volumeName,
                  'targets' => targets			   
                }
-  
         info = Util.merge_hash(info, optional) if optional
-
         response, body = @http.post('/remotecopygroups/#{name}/volumes', body: info)
+      end
       body
     end	
 	
     def remove_volume_from_remote_copy_group(name, volumeName, optional = nil, removeFromTarget = false, useHttpDelete = false)
       if not useHttpDelete
-	    if removeFromTarget
-	      if optional
-		    keep_snap = optional.fetch('keepSnap', false)
-		  else
-		    keep_snap = false
-		  end
+	if removeFromTarget
+          if optional
+            keep_snap = optional.fetch('keepSnap', false)
+          else
+            keep_snap = false
+          end
 
-	      if keep_snap
-		    cmd = ['dismissrcopyvv', '-f', '-keepsnap', '-removevv', volumeName, name]
-		    command = cmd.join(" ")
-		  else
-		    cmd = ['dismissrcopyvv', '-f', '-removevv', volumeName, name]
-		    command = cmd.join(" ")
-		  end
-          @ssh.run(command)		   		
-	    else
-	      info = { 'action' => 2, 'volumeName': volumeName }
-	      info = Util.merge_hash(info, optional) if optional
-          @http.put('/remotecopygroups/#{name}', body: info)
-	    end
+          if keep_snap
+            cmd = ['dismissrcopyvv', '-f', '-keepsnap', '-removevv', volumeName, name]
+            command = cmd.join(" ")
+          else
+            cmd = ['dismissrcopyvv', '-f', '-removevv', volumeName, name]
+            command = cmd.join(" ")
+          end
+             @ssh.run(command)		   		
+	else
+	  info = { 'action' => 2, 'volumeName': volumeName }
+	  info = Util.merge_hash(info, optional) if optional
+          response, body = @http.put('/remotecopygroups/#{name}', body: info)
+        end
       else
-        #Need to add else part
-          
+        option = nil
+        if optional and optional.get('keepSnap') and removeFromTarget
+          raise "keepSnap and removeFromTarget cannot be bpoth\
+                  true while removing the volume from remote copy group"
+        else if optional and optional.get('keepSnap')
+          option = 'keepSnap'
+        else if removeFromTarget
+          option = 'removeSecondaryVolume'
+        end
+        delete_url = '/remotecopygroups/#{name}/volumes/#{volumeName}'
+        if option
+          delete_url += '?#{option}=true'
+        end
+        response, body = @http.delete(delete_url)
+      end	
+        body
     end	
 	
     def start_remote_copy_group(name, optional = nil)
@@ -129,3 +140,125 @@ module Hpe3parSdk
       body
     end
 
+    def admit_remote_copy_links( targetName, source_port, target_port_wwn_or_ip)
+      source_target_port_pair = source_port + ':' + target_port_wwn_or_ip
+      begin
+        cmd = ['admitrcopylink', targetName, source_target_port_pair]
+        command = cmd.join(" ")
+        response = @ssh.run(command)
+        if response != []
+          raise Hpe3parSdk::HPE3PARException(message: response)
+        end
+      rescue Hpe3parSdk::HPE3PARException => ex
+        raise Hpe3parSdk::HPE3PARException(ex.message)
+      end
+      response
+    end
+
+    def dismiss_remote_copy_links( targetName, source_port, target_port_wwn_or_ip)
+      source_target_port_pair = source_port + ':' + target_port_wwn_or_ip
+      begin
+        cmd = ['dismissrcopylink', targetName, source_target_port_pair]
+        command = cmd.join(" ")
+        response = @ssh.run(command)
+        if response != []
+          raise Hpe3parSdk::HPE3PARException(message: response)
+        end
+      rescue Hpe3parSdk::HPE3PARException => ex
+        raise Hpe3parSdk::HPE3PARException(ex.message)
+      end
+      response
+    end
+
+    def start_rcopy()
+      begin
+        cmd = ['startrcopy']
+        response = @ssh.run(cmd)
+        if response != []
+          raise Hpe3parSdk::HPE3PARException(message: response)
+        end
+      rescue Hpe3parSdk::HPE3PARException => ex
+        raise Hpe3parSdk::HPE3PARException(ex.message)
+      end
+      response
+    end
+
+    def rcopy_service_exists()
+      cmd = ['showrcopy']
+      response = @ssh.run(cmd)
+      rcopyservice_status = false
+      if response[2].include?('Started')
+        rcopyservice_status = true
+      end
+      rcopyservice_status
+    end
+
+    def get_remote_copy_link(link_name)
+      response, body = @http.get('/remotecopylinks/#{link_name}')
+      body
+    end
+
+    def rcopy_link_exists(targetName, local_port, target_system_peer_port)
+      rcopylink_exits = false
+      link_name = targetName + '_' + local_port.replace(':', '_')
+      begin
+        response = self.get_remote_copy_link(link_name)
+        if response and response['address'] == target_system_peer_port
+          rcopylink_exits = true
+        end
+      rescue Hpe3parSdk::HTTPNotFound => ex
+        pass
+      end
+      rcopylink_exits
+    end
+
+    def admit_remote_copy_target( targetName, mode, remote_copy_group_name,
+                              source_target_volume_pairs_list=[])
+      if source_target_volume_pairs_list == []
+        cmd = ['admitrcopytarget', targetName, mode, remote_copy_group_name]
+      else
+        cmd = ['admitrcopytarget', targetName, mode, remote_copy_group_name]
+        for volume_pair_tuple in source_target_volume_pairs_list
+          source_target_pair = volume_pair_tuple[0] + ':' + volume_pair_tuple[1]
+          cmd << source_target_pair
+        end
+      end
+      begin
+        command = cmd.join(" ")
+        response = @ssh.run(command)
+        if response != []
+          raise Hpe3parSdk::HPE3PARException(message: response)
+        end
+      rescue Hpe3parSdk::HPE3PARException => ex
+        raise Hpe3parSdk::HPE3PARException(ex.message)
+      end
+      response
+    end
+
+    def dismiss_remote_copy_target( targetName, remote_copy_group_name)
+      option = '-f'
+      cmd = ['dismissrcopytarget', option, targetName, remote_copy_group_name]
+      begin
+        command = cmd.join(" ")
+        response = @ssh.run(command)
+        if response != []
+          raise Hpe3parSdk::HPE3PARException(message: response)
+        end
+      rescue Hpe3parSdk::HPE3PARException => ex
+        raise Hpe3parSdk::HPE3PARException(ex.message)
+      end
+      response
+    end
+
+    def target_in_remote_copy_group_exists( target_name, remote_copy_group_name)
+      begin
+        contents = self.get_remote_copy_group(remote_copy_group_name)
+        for item in contents['targets']
+          if item['target'] == target_name
+            return true           
+          end
+        end
+      rescue Hpe3parSdk::HPE3PARException => ex
+      end
+      return false
+    end
