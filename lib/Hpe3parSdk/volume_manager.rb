@@ -302,5 +302,138 @@ module Hpe3parSdk
         return false
       end
     end
+
+    def check_response(resp)
+      for r in resp
+        if 'error' in r.downcase or 'invalid' in r.downcase or 'the schedule format' in r.downcase
+          return r.strip
+        end
+      end
+    end
+
+    def createSchedule(schedule_name, task, taskfreq='@hourly')
+      cmd = ['createsched']
+      cmd << "\""+task+"\""
+      if '@' not in taskfreq
+        cmd << "\""+taskfreq+"\""
+      else
+        cmd << taskfreq
+      end
+      cmd << schedule_name
+      begin
+        command = cmd.join(" ")
+        response = @ssh.run(command)
+        err_resp = check_response(response)
+        if err_resp
+          raise Hpe3parSdk::HPE3PARException(message: err_resp)
+        else
+          for r in resp
+            if r.downcase.include? 'The schedule format is <minute> <hour> <dom>'\
+' <month> <dow> or by @hourly @daily @monthly @weekly @monthly @yearly'.downcase
+              raise Hpe3parSdk::HPE3PARException(message: r.strip)
+            end
+          end 
+        end
+      rescue Hpe3parSdk::HPE3PARException => ex
+        raise Hpe3parSdk::HPE3PARException(ex.message)
+      end
+    end
+
+    def deleteSchedule(schedule_name)
+      cmd = ['removesched', '-f', schedule_name]
+      begin
+        command = cmd.join(" ")
+        response = @ssh.run(command)
+        err_resp = check_response(response)
+        if err_resp
+          err = 'Delete snapschedule failed Error is #{err_resp}'
+          raise Hpe3parSdk::HPE3PARException(message: err)
+        end
+      rescue Hpe3parSdk::HPE3PARException => ex
+        raise Hpe3parSdk::HPE3PARException(ex.message)
+      end
+    end
+
+    def getSchedule(schedule_name)
+      cmd = ['showsched ', schedule_name]
+      begin
+        command = cmd.join(" ")
+        response = @ssh.run(command)
+        for r in response
+          if 'No scheduled tasks ' in r
+            msg = "Couldn't find the schedule #{schedule_name}"
+            raise Hpe3parSdk::HPE3PARException(message: msg)
+          end
+        end
+      rescue Hpe3parSdk::HPE3PARException => ex
+        raise Hpe3parSdk::HPE3PARException(ex.message)
+      end
+      response
+    end
+
+    def modifySchedule(name, schedule_opt)
+      cmd = ['setsched']
+      if 'newName' in schedule_opt
+        cmd << '-name'
+        cmd << schedule_opt['newName']
+      end
+      if 'taskFrequency' in schedule_opt
+        cmd << '-s'
+        if '@' not in schedule_opt['taskFrequency']
+          cmd << "\"" + schedule_opt['taskFrequency'] + "\""
+        else
+          cmd << schedule_opt['taskFrequency']
+        end
+      end
+      cmd << name
+      begin
+        command = cmd.join(" ")
+        response = @ssh.run(command)
+        err_resp = check_response(response)
+        if err_resp
+          raise Hpe3parSdk::HPE3PARException(message: err_resp)
+        else
+          for r in response
+            if r.downcase.include? 'The schedule format is <minute> <hour> <dom>'\
+' <month> <dow> or by @hourly @daily @monthly @weekly @monthly @yearly'.downcase
+              raise Hpe3parSdk::HPE3PARException(message: r.strip)
+            end
+          end
+        end          
+      rescue Hpe3parSdk::HPE3PARException => ex
+        raise Hpe3parSdk::HPE3PARException(ex.message)
+      end
+    end
+
+    def suspendSchedule(schedule_name)
+      cmd = ['setsched', '-suspend', schedule_name]
+      begin
+        command = cmd.join(" ")
+        response = @ssh.run(command)
+        err_resp = check_response(response)
+        if err_resp
+          err = 'Schedule suspend failed Error is #{err_resp}'
+          raise Hpe3parSdk::HPE3PARException(message: err)
+        end
+      rescue Hpe3parSdk::HPE3PARException => ex
+        raise Hpe3parSdk::HPE3PARException(ex.message)
+      end      
+    end
+
+    def resumeSchedule(schedule_name)
+      cmd = ['setsched', '-resume', schedule_name]
+      begin
+        command = cmd.join(" ")
+        response = @ssh.run(command)
+        err_resp = check_response(response)
+        if err_resp
+          err = 'Schedule resume failed Error is #{err_resp}'
+          raise Hpe3parSdk::HPE3PARException(message: err)
+        end
+      rescue Hpe3parSdk::HPE3PARException => ex
+        raise Hpe3parSdk::HPE3PARException(ex.message)
+      end      
+    end
+
   end
 end

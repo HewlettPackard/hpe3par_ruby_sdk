@@ -26,6 +26,16 @@ module Hpe3parSdk
       body
     end	
 	
+    def get_remote_copy_group_volumes(remoteCopyGroupName)
+      response, body = @http.get('/remotecopygroups/#{remoteCopyGroupName}/volumes')
+      body
+    end
+	
+    def get_remote_copy_group_volume(remoteCopyGroupName, volumeName)
+      response, body = @http.get('/remotecopygroups/#{remoteCopyGroupName}/volumes/#{volumeName}')
+      body
+    end
+
     def create_remote_copy_group(name, targets, optional = nil)
       info = { 'name' => name, 
                'targets' => targets 
@@ -86,7 +96,7 @@ module Hpe3parSdk
             cmd = ['dismissrcopyvv', '-f', '-removevv', volumeName, name]
             command = cmd.join(" ")
           end
-             @ssh.run(command)		   		
+          @ssh.run(command)		   		
 	else
 	  info = { 'action' => 2, 'volumeName': volumeName }
 	  info = Util.merge_hash(info, optional) if optional
@@ -263,31 +273,3 @@ module Hpe3parSdk
       return false
     end
 
-    def check_response(resp)
-      for r in resp
-        if 'error' in r.downcase or 'invalid' in r.downcase or 'the schedule format' in r.downcase
-          return r.strip
-        end
-      end
-    end
-
-    def create_schedule(schedule_name, task, taskfreq='@hourly')
-      cmd = ['createsched']
-      cmd << "\""+task+"\""
-      if '@' not in taskfreq
-        cmd << "\""+taskfreq+"\""
-      else
-        cmd << taskfreq
-      end
-      cmd << schedule_name
-      begin
-        command = cmd.join(" ")
-        response = @ssh.run(command)
-        err_resp = check_response(response)
-        if err_resp
-          raise Hpe3parSdk::HPE3PARException(message: err_resp)
-        end
-      rescue Hpe3parSdk::HPE3PARException => ex
-        raise Hpe3parSdk::HPE3PARException(ex.message)
-      end
-    end
