@@ -12,7 +12,9 @@ with the command line interface over an SSH connection.
 
 Requirements
 ============
-* 3PAR OS - 3.2.2 MU6, 3.3.1 MU1
+* 3PAR OS
+  * 3.2.2 MU4, MU6
+  * 3.3.1 MU1, MU2
 * Ruby - 2.4.x or higher.
 * WSAPI service should be enabled on the 3PAR storage array.
 
